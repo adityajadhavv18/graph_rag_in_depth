@@ -6,11 +6,19 @@ The none and single routes are unchanged and replay from the cache; only the 39 
 Decision rule (Aditya's): the graph replaces IRCoT if the multi questions score higher than IRCoT's and the total
 stays >= 0.897.
 
-Results: grag/results/phase4_tune.json.
+--linked turns on solution B (graph passages graded against the question with their link filled in), --add
+"add, don't replace" (f6a's own top 5 + the graph chunks) and --fallback the IRCoT loop when CRAG rejects every
+graph passage, see graph_route.py. --add and --fallback runs are compared with the --linked run, --linked with
+the plain graph run.
+
+Results: grag/results/phase4_tune.json, phase4_tune_linked.json, phase4_tune_linked_add.json,
+phase4_tune_linked_fallback.json.
 
 Run from graph_rag_in_depth/ (Qdrant + kg-neo4j running; OpenAI key sourced):
-    uv run grag/graph_tune.py
+    uv run grag/graph_tune.py [--linked] [--add] [--fallback]
 """
+
+import sys
 
 import json
 import statistics
@@ -31,8 +39,8 @@ from base_tune import KINDS
 RESULTS = grag_bridge.ROOT / "grag" / "results"
 
 
-def run(golden: dict, split: str = "tune") -> dict:
-    graph_route.install(grag_bridge.SELFRAG_CONFIG)
+def run(golden: dict, split: str = "tune", linked: bool = False, add: bool = False, fallback: bool = False) -> dict:
+    graph_route.install(grag_bridge.SELFRAG_CONFIG, linked=linked, add=add, fallback=fallback)
     picks = {}
     rows = route_eval.run_route("graph", golden, baseline.routed(picks), golden_set=sg.golden_name(split))
     for i, row in rows.items():
@@ -54,7 +62,8 @@ def main():
     golden = {g.id: g for g in load_golden(sg.golden_name("tune"))}
     base = json.loads((RESULTS / "phase1.json").read_text())
     b, bq = base["summary"], base["questions"]
-    rows = run(golden)
+    linked, add, fallback = "--linked" in sys.argv, "--add" in sys.argv, "--fallback" in sys.argv
+    rows = run(golden, linked=linked, add=add, fallback=fallback)
     s = crag_eval.summary(rows, None)
     by_kind = lambda rs: {k: f"{sum(r['correct'] for r in rs.values() if r['kind'] == k):g}/"
                              f"{sum(r['kind'] == k for r in rs.values())}" for k in KINDS}
@@ -64,6 +73,7 @@ def main():
     s["multi"] = {"ircot": score(bq, multi), "graph": score(rows, multi), "n": len(multi),
                   "ircot_by_kind": by_kind({i: bq[i] for i in multi}), "graph_by_kind": by_kind(multi_now)}
     s["fallback"] = sum(bool((r["walk"] or {}).get("fallback")) for r in multi_now.values())
+    s["ircot_fallback"] = [i for i, r in multi_now.items() if (r["walk"] or {}).get("ircot_fallback")]
     s["route_changed"] = [i for i in golden if rows[i]["route"] != bq[i]["route"]]
     s["changed"] = {i: f"{bq[i]['correct']:g} -> {r['correct']:g}" for i, r in rows.items()
                     if r["correct"] != bq[i]["correct"]}
@@ -71,8 +81,16 @@ def main():
                          "graph": statistics.median(rows[i]["ms"] for i in multi)}
     s["multi_cost"] = {"ircot": sum(bq[i]["cost"] for i in multi) / len(multi),
                        "graph": sum(rows[i]["cost"] for i in multi) / len(multi)}
-    (RESULTS / "phase4_tune.json").write_text(json.dumps({"summary": s, "questions": rows}, indent=2,
-                                                         ensure_ascii=False))
+    prev = "phase4_tune_linked.json" if (add or fallback) else "phase4_tune.json"
+    if linked or add or fallback:
+        g = json.loads((RESULTS / prev).read_text())["questions"]
+        s["vs_graph"] = {i: f"{g[i]['correct']:g} -> {r['correct']:g}" for i, r in rows.items()
+                         if r["correct"] != g[i]["correct"]}
+        s["crag_actions"] = {name: {a: sum((src[i]["crag"] or {}).get("action") == a for i in multi)
+                                    for a in ("CORRECT", "AMBIGUOUS", "INCORRECT")}
+                             for name, src in (("ircot", bq), ("previous", g), ("now", rows))}
+    out = "phase4_tune" + "_linked" * linked + "_add" * add + "_fallback" * fallback + ".json"
+    (RESULTS / out).write_text(json.dumps({"summary": s, "questions": rows}, indent=2, ensure_ascii=False))
     m = s["multi"]
     print(f"\nright (78): IRCoT base {b['correct']:.3f} -> graph {s['correct']:.3f} (1 vote); "
           f"{b['correct3']:.3f} -> {s['correct3']:.3f} (3 votes)")
@@ -82,7 +100,11 @@ def main():
     print(f"multi $/question {s['multi_cost']['ircot']:.5f} -> {s['multi_cost']['graph']:.5f}; "
           f"multi p50 {s['multi_p50_ms']['ircot'] / 1000:.1f} -> {s['multi_p50_ms']['graph'] / 1000:.1f} s; "
           f"all p50 {b['p50_ms'] / 1000:.1f} -> {s['p50_ms'] / 1000:.1f} s")
-    print(f"changed: {s['changed'] or 'none'}")
+    print(f"changed vs IRCoT base: {s['changed'] or 'none'}")
+    print(f"IRCoT fallback used on: {s['ircot_fallback'] or 'none'}")
+    if linked or add or fallback:
+        print(f"changed vs previous step ({prev}): {s['vs_graph'] or 'none'}")
+        print(f"CRAG actions on multi: {s['crag_actions']}")
 
 
 if __name__ == "__main__":

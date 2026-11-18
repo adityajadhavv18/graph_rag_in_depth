@@ -137,5 +137,6 @@ def walk(question: str, fused: list) -> tuple[list[retrieve.Hit], dict]:
     out = list({h.chunk_id: h for h in box + article}.values())
     log["chunks"] = [h.chunk_id for h in out]
     log["via"] = (best["match"], best["rel"], best["to"], best["line"])
+    log["via_name"] = names[best["match"]]
     log["hop2_query"] = query
     return out, log
