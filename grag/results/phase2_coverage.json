@@ -1,0 +1,156 @@
+{
+  "chain-01": {
+    "question": "What are the two ends of the ground that hosted the 2023 World Test Championship final called?",
+    "match_found": [
+      "2023 World Test Championship final"
+    ],
+    "hop1": [
+      {
+        "match": "2023 World Test Championship final",
+        "to": "The Oval",
+        "line": "Venue: The Oval, London"
+      }
+    ],
+    "target": "The Oval",
+    "hop1_ok": true,
+    "hop2_chunks": [
+      "the_oval::s002::00"
+    ],
+    "hop2_ok": true
+  },
+  "chain-02": {
+    "question": "How long did it take to build the stadium that hosted the 2011 Cricket World Cup final, and when did it open?",
+    "match_found": [
+      "2011 Cricket World Cup final"
+    ],
+    "hop1": [
+      {
+        "match": "2011 Cricket World Cup final",
+        "to": "Wankhede Stadium",
+        "line": "Venue: Wankhede Stadium, Mumbai"
+      }
+    ],
+    "target": "Wankhede Stadium",
+    "hop1_ok": true,
+    "hop2_chunks": [
+      "wankhede_stadium::s002::00"
+    ],
+    "hop2_ok": true
+  },
+  "chain-03": {
+    "question": "Who opened the stadium that hosted the 2025 IPL final, and on what date?",
+    "match_found": [
+      "2025 Indian Premier League final"
+    ],
+    "hop1": [
+      {
+        "match": "2025 Indian Premier League final",
+        "to": "Narendra Modi Stadium",
+        "line": "Venue: Narendra Modi Stadium, Ahmedabad"
+      }
+    ],
+    "target": "Narendra Modi Stadium",
+    "hop1_ok": true,
+    "hop2_chunks": [
+      "narendra_modi_stadium::s000::03"
+    ],
+    "hop2_ok": true
+  },
+  "chain-04": {
+    "question": "What is the spectator capacity of the ground that hosted the first Test of India's 2025 tour of England?",
+    "match_found": [
+      "Indian cricket team in England in 2025 › Test series › 1st Test (20–24 June 2025)"
+    ],
+    "hop1": [
+      {
+        "match": "Indian cricket team in England in 2025 › Test series › 1st Test (20–24 June 2025)",
+        "to": "Headingley Cricket Ground",
+        "line": "Venue: Headingley, Leeds"
+      }
+    ],
+    "target": "Headingley Cricket Ground",
+    "hop1_ok": true,
+    "hop2_chunks": [
+      "headingley_cricket_ground::s000::01",
+      "headingley_cricket_ground::s003::00"
+    ],
+    "hop2_ok": true
+  },
+  "chain-05": {
+    "question": "On what date was the stadium that hosted the first Test of the 2025–26 Ashes officially opened?",
+    "match_found": [
+      "2025–26 Ashes series › Matches › First Test (21–22 November 2025)"
+    ],
+    "hop1": [
+      {
+        "match": "2025–26 Ashes series › Matches › First Test (21–22 November 2025)",
+        "to": "Perth Stadium",
+        "line": "Venue: Perth Stadium, Perth"
+      }
+    ],
+    "target": "Perth Stadium",
+    "hop1_ok": true,
+    "hop2_chunks": [
+      "perth_stadium::s000::02"
+    ],
+    "hop2_ok": true
+  },
+  "chain-06": {
+    "question": "In what year was the first Test played at the ground that hosted the second Test of India's 2024–25 tour of Australia?",
+    "match_found": [
+      "Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))"
+    ],
+    "hop1": [
+      {
+        "match": "Indian cricket team in Australia in 2024–25 › Test series › 2nd Test (6–8 December 2024 (D/N))",
+        "to": "Adelaide Oval",
+        "line": "Venue: Adelaide Oval, Adelaide"
+      }
+    ],
+    "target": "Adelaide Oval",
+    "hop1_ok": true,
+    "hop2_chunks": [
+      "adelaide_oval::s001::00"
+    ],
+    "hop2_ok": true
+  },
+  "chain-07": {
+    "question": "Which school did the player of the match in the 2024 IPL final attend?",
+    "match_found": [
+      "2024 Indian Premier League final"
+    ],
+    "hop1": [
+      {
+        "match": "2024 Indian Premier League final",
+        "to": "Mitchell Starc",
+        "line": "Player of the match: Mitchell Starc (KKR)"
+      }
+    ],
+    "target": "Mitchell Starc",
+    "hop1_ok": true,
+    "hop2_chunks": [
+      "mitchell_starc::s001::00"
+    ],
+    "hop2_ok": true
+  },
+  "chain-08": {
+    "question": "How many people can the stadium that hosted the first Test of India's 2024–25 tour of Australia hold?",
+    "match_found": [
+      "Indian cricket team in Australia in 2024–25 › Test series › 1st Test (22–25 November 2024)"
+    ],
+    "hop1": [
+      {
+        "match": "Indian cricket team in Australia in 2024–25 › Test series › 1st Test (22–25 November 2024)",
+        "to": "Perth Stadium",
+        "line": "Venue: Perth Stadium, Perth"
+      }
+    ],
+    "target": "Perth Stadium",
+    "hop1_ok": true,
+    "hop2_chunks": [
+      "perth_stadium::s000::02",
+      "perth_stadium::s000::01"
+    ],
+    "hop2_ok": true
+  }
+}
