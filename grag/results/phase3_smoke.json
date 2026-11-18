@@ -1,0 +1,323 @@
+{
+  "chain-02": {
+    "base": 0.0,
+    "now": 1.0,
+    "route": "multi",
+    "answer": "It took approximately 13 months to build Wankhede Stadium, which opened in time for the final Test between India and the West Indies in 1975 [1].",
+    "base_answer": "The stadium that hosted the 2011 Cricket World Cup final took five years to build and officially opened on 24 February 2020 [1][7].",
+    "cost": 0.0024555,
+    "secs": 12.6,
+    "walk": {
+      "by_name": [
+        [
+          "wankhede_stadium::s011::m1",
+          "Wankhede Stadium › Cricket World Cup › 2011 Cricket World Cup (18 March 2011)",
+          0.759
+        ]
+      ],
+      "by_search": [],
+      "hops": [
+        [
+          "HELD_AT",
+          "Wankhede Stadium",
+          0.671
+        ]
+      ],
+      "chunks": [
+        "wankhede_stadium::s011::00",
+        "wankhede_stadium::s002::00",
+        "wankhede_stadium::s003::00",
+        "wankhede_stadium::s004::00"
+      ],
+      "via": [
+        "wankhede_stadium::s011::m1",
+        "HELD_AT",
+        "Wankhede Stadium",
+        "(listed in the ground's article)"
+      ],
+      "hop2_query": "Wankhede Stadium: How long did it take to build stadium that hosted , and when did it open ?",
+      "passages": [
+        "wankhede_stadium::s002::00",
+        "wankhede_stadium::s003::00",
+        "wankhede_stadium::s011::00",
+        "wankhede_stadium::s004::00",
+        "2011_cricket_world_cup::s000::01"
+      ]
+    },
+    "selfrag_picked": "A1"
+  },
+  "chain-04": {
+    "base": 0.0,
+    "now": 1.0,
+    "route": "multi",
+    "answer": "The spectator capacity of Headingley Cricket Ground, which hosted the first Test of India's 2025 tour of England, is 18,350 [2].",
+    "base_answer": "I don't know based on the provided documents.",
+    "cost": 0.0023013,
+    "secs": 7.3,
+    "walk": {
+      "by_name": [
+        [
+          "indian_cricket_team_in_england_in_2025::s006::m0",
+          "Indian cricket team in England in 2025 › Test series › 1st Test (20–24 June 2025)",
+          0.772
+        ]
+      ],
+      "by_search": [],
+      "hops": [
+        [
+          "HELD_AT",
+          "Headingley Cricket Ground",
+          0.695
+        ],
+        [
+          "TOP_BOWLER",
+          "Ben Stokes",
+          0.513
+        ],
+        [
+          "TOP_BOWLER",
+          "Jasprit Bumrah",
+          0.537
+        ],
+        [
+          "TOP_BATTER",
+          "Shubman Gill",
+          0.505
+        ]
+      ],
+      "chunks": [
+        "indian_cricket_team_in_england_in_2025::s006::00",
+        "headingley_cricket_ground::s003::00",
+        "headingley_cricket_ground::s000::00",
+        "headingley_cricket_ground::s000::01"
+      ],
+      "via": [
+        "indian_cricket_team_in_england_in_2025::s006::m0",
+        "HELD_AT",
+        "Headingley Cricket Ground",
+        "Venue: Headingley, Leeds"
+      ],
+      "hop2_query": "Headingley Cricket Ground: What is spectator capacity ground that hosted India's ?",
+      "passages": [
+        "headingley_cricket_ground::s003::00",
+        "headingley_cricket_ground::s000::00",
+        "headingley_cricket_ground::s000::01",
+        "indian_cricket_team_in_england_in_2025::s006::00",
+        "edgbaston_cricket_ground::s000::01"
+      ]
+    },
+    "selfrag_picked": "A_all"
+  },
+  "chain-07": {
+    "base": 0.0,
+    "now": 0.0,
+    "route": "multi",
+    "answer": "I don't know based on the provided documents.",
+    "base_answer": "I don't know based on the provided documents.",
+    "cost": 0.0033394500000000003,
+    "secs": 5.4,
+    "walk": {
+      "by_name": [
+        [
+          "2024_indian_premier_league_final::final",
+          "2024 Indian Premier League final",
+          0.789
+        ]
+      ],
+      "by_search": [
+        [
+          "2024_indian_premier_league::s017::m0",
+          "2024 Indian Premier League › Playoffs › Final (Final; 26 May 2024; 19:30 (N))"
+        ],
+        [
+          "2024_indian_premier_league_final::final",
+          "2024 Indian Premier League final"
+        ]
+      ],
+      "hops": [
+        [
+          "PLAYER_OF_MATCH",
+          "Mitchell Starc",
+          0.688
+        ],
+        [
+          "HELD_AT",
+          "M. A. Chidambaram Stadium",
+          0.629
+        ],
+        [
+          "TOP_BOWLER",
+          "Pat Cummins",
+          0.562
+        ],
+        [
+          "TOP_BATTER",
+          "Pat Cummins",
+          0.556
+        ]
+      ],
+      "chunks": [
+        "2024_indian_premier_league_final::s000::00",
+        "mitchell_starc::s001::00",
+        "mitchell_starc::s003::03",
+        "mitchell_starc::s009::02"
+      ],
+      "via": [
+        "2024_indian_premier_league_final::final",
+        "PLAYER_OF_MATCH",
+        "Mitchell Starc",
+        "Player of the match: Mitchell Starc (KKR)"
+      ],
+      "hop2_query": "Mitchell Starc: Which school did player match attend ?",
+      "passages": [
+        "mitchell_starc::s001::00",
+        "2024_indian_premier_league_final::s000::00",
+        "mitchell_starc::s003::03",
+        "mitchell_starc::s009::02",
+        "2024_indian_premier_league::s000::00"
+      ]
+    },
+    "selfrag_picked": "A_all"
+  },
+  "multi-01": {
+    "base": 1.0,
+    "now": 1.0,
+    "route": "multi",
+    "answer": "In the 2023 Cricket World Cup final, Rohit Sharma scored 47 runs for India, while Travis Head made 137 runs in Australia's chase [1][3].",
+    "base_answer": "In the 2023 Cricket World Cup final, Rohit Sharma scored 47 runs for India, while Travis Head made 137 runs in Australia's chase [1][4].",
+    "cost": 0.0038502,
+    "secs": 7.4,
+    "walk": {
+      "by_name": [
+        [
+          "2023_cricket_world_cup_final::final",
+          "2023 Cricket World Cup final",
+          0.73
+        ]
+      ],
+      "by_search": [
+        [
+          "2023_cricket_world_cup_final::final",
+          "2023 Cricket World Cup final"
+        ],
+        [
+          "narendra_modi_stadium::s013::m4",
+          "Narendra Modi Stadium › World Cup matches › 2023 Cricket World Cup (19 November 2023; 14:00 (D/N))"
+        ],
+        [
+          "2023_cricket_world_cup::s019::m0",
+          "2023 Cricket World Cup › Knockout stage › Final (19 November 2023; 14:00 (D/N))"
+        ]
+      ],
+      "hops": [
+        [
+          "PLAYER_OF_MATCH",
+          "Travis Head",
+          0.669
+        ],
+        [
+          "HELD_AT",
+          "Narendra Modi Stadium",
+          0.544
+        ],
+        [
+          "TOP_BOWLER",
+          "Jasprit Bumrah",
+          0.538
+        ],
+        [
+          "TOP_BOWLER",
+          "Mitchell Starc",
+          0.516
+        ],
+        [
+          "TOP_BATTER",
+          "Travis Head",
+          0.694
+        ]
+      ],
+      "chunks": [
+        "2023_cricket_world_cup_final::s007::00",
+        "travis_head::s001::03",
+        "travis_head::s006::01",
+        "travis_head::s004::01"
+      ],
+      "via": [
+        "2023_cricket_world_cup_final::final",
+        "TOP_BATTER",
+        "Travis Head",
+        "Australia: Travis Head 137 (120); Jasprit Bumrah 2/43 (9 overs)"
+      ],
+      "hop2_query": "Travis Head: , how many did Rohit Sharma score for India , and what did Travis Head make Australia's chase ?",
+      "passages": [
+        "2023_cricket_world_cup_final::s007::00",
+        "2023_cricket_world_cup_final::s005::00",
+        "2023_cricket_world_cup_final::s006::00",
+        "2023_cricket_world_cup_final::s000::00",
+        "2023_cricket_world_cup::s019::00",
+        "travis_head::s001::03",
+        "travis_head::s006::01",
+        "travis_head::s004::01"
+      ]
+    },
+    "selfrag_picked": "A_all"
+  },
+  "pair-01": {
+    "base": 1.0,
+    "now": 1.0,
+    "route": "multi",
+    "answer": "In the 2019 Cricket World Cup final, Ben Stokes scored 84* runs [2]. He was born in Christchurch, New Zealand [6].",
+    "base_answer": "Ben Stokes scored 84* runs in the 2019 Cricket World Cup final against New Zealand [1]. He was born in Christchurch, New Zealand [9].",
+    "cost": 0.0028695,
+    "secs": 9.2,
+    "walk": {
+      "by_name": [
+        [
+          "2019_cricket_world_cup_final::final",
+          "2019 Cricket World Cup final",
+          0.754
+        ]
+      ],
+      "by_search": [],
+      "hops": [
+        [
+          "PLAYER_OF_MATCH",
+          "Ben Stokes",
+          0.812
+        ],
+        [
+          "HELD_AT",
+          "Lord's",
+          0.523
+        ],
+        [
+          "TOP_BATTER",
+          "Ben Stokes",
+          0.799
+        ]
+      ],
+      "chunks": [
+        "2019_cricket_world_cup_final::s000::00",
+        "ben_stokes::s000::00",
+        "ben_stokes::s026::00",
+        "ben_stokes::s001::00"
+      ],
+      "via": [
+        "2019_cricket_world_cup_final::final",
+        "PLAYER_OF_MATCH",
+        "Ben Stokes",
+        "Player of the match: Ben Stokes (Eng)"
+      ],
+      "hop2_query": "Ben Stokes: How many did Ben Stokes score , and where was he born ?",
+      "passages": [
+        "ben_stokes::s010::00",
+        "2019_cricket_world_cup_final::s000::00",
+        "ben_stokes::s001::00",
+        "ben_stokes::s010::01",
+        "ben_stokes::s026::00",
+        "ben_stokes::s000::00"
+      ]
+    },
+    "selfrag_picked": "A_all"
+  }
+}

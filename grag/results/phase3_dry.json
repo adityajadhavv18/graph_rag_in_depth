@@ -1,0 +1,2027 @@
+{
+  "which-01": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_australia_in_2014-15::s007::m0",
+        "Indian cricket team in Australia in 2014–15 › Test series › 2nd Test (17–21 December 2014)",
+        0.749
+      ]
+    ],
+    "by_search": [
+      [
+        "indian_cricket_team_in_australia_in_2014-15::s006::m0",
+        "Indian cricket team in Australia in 2014–15 › Test series › 1st Test (9–13 December 2014)"
+      ],
+      [
+        "indian_cricket_team_in_australia_in_2014-15::s007::m0",
+        "Indian cricket team in Australia in 2014–15 › Test series › 2nd Test (17–21 December 2014)"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "The Gabba",
+        0.541
+      ],
+      [
+        "TOP_BOWLER",
+        "Josh Hazlewood",
+        0.539
+      ],
+      [
+        "TOP_BOWLER",
+        "Mitchell Johnson",
+        0.566
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_australia_in_2014-15::s007::00",
+      "mitchell_johnson::s006::01",
+      "mitchell_johnson::s007::00",
+      "mitchell_johnson::s005::01"
+    ],
+    "via": [
+      "indian_cricket_team_in_australia_in_2014-15::s007::m0",
+      "TOP_BOWLER",
+      "Mitchell Johnson",
+      "India: 224 (64.3 overs); Shikhar Dhawan 81 (145); Mitchell Johnson 4/41 (17.3 overs)"
+    ],
+    "hop2_query": "Mitchell Johnson: India's at Adelaide , how was Murali Vijay out India's second innings , and for how many ?"
+  },
+  "which-02": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2013-14_ashes_series::s006::m0",
+        "2013–14 Ashes series › Matches › Fifth Test (3–5 January)",
+        0.785
+      ]
+    ],
+    "by_search": [
+      [
+        "2013-14_ashes_series::s006::m0",
+        "2013–14 Ashes series › Matches › Fifth Test (3–5 January)"
+      ],
+      [
+        "2013_ashes_series::s007::m0",
+        "2013 Ashes series › Matches › Fifth Test (21–25 August)"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Sydney Cricket Ground",
+        0.615
+      ],
+      [
+        "TOP_BOWLER",
+        "Ben Stokes",
+        0.564
+      ],
+      [
+        "TOP_BATTER",
+        "Ben Stokes",
+        0.591
+      ]
+    ],
+    "chunks": [
+      "2013-14_ashes_series::s006::00",
+      "sydney_cricket_ground::s014::00",
+      "sydney_cricket_ground::s009::02",
+      "sydney_cricket_ground::s000::00"
+    ],
+    "via": [
+      "2013-14_ashes_series::s006::m0",
+      "HELD_AT",
+      "Sydney Cricket Ground",
+      "Venue: Sydney Cricket Ground, Sydney"
+    ],
+    "hop2_query": "Sydney Cricket Ground: Who top scored for England their second innings Ashes Sydney , and how many did England make ?"
+  },
+  "which-03": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2023_ashes_series::s008::m0",
+        "2023 Ashes series › Matches › Second Test (28 June–2 July 2023)",
+        0.764
+      ]
+    ],
+    "by_search": [
+      [
+        "2023_ashes_series::s002::m0",
+        "2023 Ashes series › Matches › First Test (16–20 June 2023)"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Lord's",
+        0.602
+      ],
+      [
+        "TOP_BOWLER",
+        "Pat Cummins",
+        0.541
+      ],
+      [
+        "TOP_BOWLER",
+        "Mitchell Starc",
+        0.535
+      ],
+      [
+        "TOP_BOWLER",
+        "Stuart Broad",
+        0.562
+      ],
+      [
+        "TOP_BATTER",
+        "Ben Stokes",
+        0.632
+      ]
+    ],
+    "chunks": [
+      "2023_ashes_series::s008::00",
+      "ben_stokes::s012::00",
+      "ben_stokes::s005::01",
+      "ben_stokes::s010::01"
+    ],
+    "via": [
+      "2023_ashes_series::s008::m0",
+      "TOP_BATTER",
+      "Ben Stokes",
+      "England: 327 (81.3 overs); Ben Stokes 155 (214); Pat Cummins 3/69 (25 overs)"
+    ],
+    "hop2_query": "Ben Stokes: England's second innings Ashes at Edgbaston , how was Joe Root dismissed and for what score ?"
+  },
+  "which-04": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2023_world_test_championship_final::final",
+        "2023 World Test Championship final",
+        0.724
+      ]
+    ],
+    "by_search": [
+      [
+        "2023_world_test_championship_final::final",
+        "2023 World Test Championship final"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Travis Head",
+        0.59
+      ],
+      [
+        "HELD_AT",
+        "The Oval",
+        0.679
+      ],
+      [
+        "TOP_BOWLER",
+        "Ravindra Jadeja",
+        0.63
+      ],
+      [
+        "TOP_BOWLER",
+        "Nathan Lyon",
+        0.625
+      ],
+      [
+        "TOP_BOWLER",
+        "Pat Cummins",
+        0.603
+      ],
+      [
+        "TOP_BATTER",
+        "Virat Kohli",
+        0.641
+      ],
+      [
+        "TOP_BATTER",
+        "Travis Head",
+        0.598
+      ],
+      [
+        "TOP_BATTER",
+        "Ajinkya Rahane",
+        0.803
+      ]
+    ],
+    "chunks": [
+      "2023_world_test_championship_final::s007::00",
+      "ajinkya_rahane::s004::02",
+      "ajinkya_rahane::s005::00",
+      "ajinkya_rahane::s001::00"
+    ],
+    "via": [
+      "2023_world_test_championship_final::final",
+      "TOP_BATTER",
+      "Ajinkya Rahane",
+      "India: 296 (69.4 overs); Ajinkya Rahane 89 (129); Pat Cummins 3/84 (20 overs)"
+    ],
+    "hop2_query": "Ajinkya Rahane: at Oval , what score was Ajinkya Rahane on when he was out , and who caught him ?"
+  },
+  "which-05": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2019_ashes_series::s003::m0",
+        "2019 Ashes series › Matches › First Test (1–5 August 2019)",
+        0.672
+      ]
+    ],
+    "by_search": [
+      [
+        "indian_cricket_team_in_australia_in_2020-21::s025::m0",
+        "Indian cricket team in Australia in 2020–21 › Test series › 4th Test (15–19 January 2021)"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Edgbaston Cricket Ground",
+        0.477
+      ],
+      [
+        "TOP_BOWLER",
+        "Pat Cummins",
+        0.46
+      ],
+      [
+        "TOP_BOWLER",
+        "Ben Stokes",
+        0.487
+      ],
+      [
+        "TOP_BOWLER",
+        "Stuart Broad",
+        0.47
+      ],
+      [
+        "TOP_BOWLER",
+        "Nathan Lyon",
+        0.511
+      ]
+    ],
+    "chunks": [
+      "2019_ashes_series::s003::00",
+      "nathan_lyon::s003::04",
+      "nathan_lyon::s003::02",
+      "nathan_lyon::s003::03"
+    ],
+    "via": [
+      "2019_ashes_series::s003::m0",
+      "TOP_BOWLER",
+      "Nathan Lyon",
+      "England: 146 (52.3 overs); Chris Woakes 37 (54); Nathan Lyon 6/49 (20 overs)"
+    ],
+    "hop2_query": "Nathan Lyon: Gabba India's Australia , how many did Washington Sundar and Shardul Thakur add together India's innings ?"
+  },
+  "twin-02": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_australia_in_2018-19::s007::m0",
+        "Indian cricket team in Australia in 2018–19 › Test series › 1st Test (6–10 December 2018)",
+        0.786
+      ]
+    ],
+    "by_search": [
+      [
+        "indian_cricket_team_in_australia_in_2018-19::s007::m0",
+        "Indian cricket team in Australia in 2018–19 › Test series › 1st Test (6–10 December 2018)"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Cheteshwar Pujara",
+        0.588
+      ],
+      [
+        "HELD_AT",
+        "Adelaide Oval",
+        0.626
+      ],
+      [
+        "TOP_BOWLER",
+        "Jasprit Bumrah",
+        0.613
+      ],
+      [
+        "TOP_BOWLER",
+        "Nathan Lyon",
+        0.614
+      ],
+      [
+        "TOP_BOWLER",
+        "Josh Hazlewood",
+        0.59
+      ],
+      [
+        "TOP_BATTER",
+        "Cheteshwar Pujara",
+        0.644
+      ],
+      [
+        "TOP_BATTER",
+        "Travis Head",
+        0.605
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_australia_in_2018-19::s007::00",
+      "cheteshwar_pujara::s004::01",
+      "cheteshwar_pujara::s008::00",
+      "cheteshwar_pujara::s007::00"
+    ],
+    "via": [
+      "indian_cricket_team_in_australia_in_2018-19::s007::m0",
+      "TOP_BATTER",
+      "Cheteshwar Pujara",
+      "India: 250 (88 overs); Cheteshwar Pujara 123 (246); Josh Hazlewood 3/52 (20 overs)"
+    ],
+    "hop2_query": "Cheteshwar Pujara: Who top scored for India their first innings Adelaide series , and with what score ?"
+  },
+  "twin-03": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2017_indian_premier_league_final::final",
+        "2017 Indian Premier League final",
+        0.775
+      ]
+    ],
+    "by_search": [
+      [
+        "2017_indian_premier_league_final::final",
+        "2017 Indian Premier League final"
+      ],
+      [
+        "2017_indian_premier_league::s012::m0",
+        "2017 Indian Premier League › Playoffs › Final (21 May; 20:00 (D/N))"
+      ]
+    ],
+    "hops": [
+      [
+        "TOP_BOWLER",
+        "Mitchell Johnson",
+        0.579
+      ]
+    ],
+    "chunks": [
+      "2017_indian_premier_league::s012::00",
+      "mitchell_johnson::s011::01",
+      "mitchell_johnson::s010::00",
+      "mitchell_johnson::s011::00"
+    ],
+    "via": [
+      "2017_indian_premier_league::s012::m0",
+      "TOP_BOWLER",
+      "Mitchell Johnson",
+      "Rising Pune Supergiant: Steve Smith 51 (50); Mitchell Johnson 3/26 (4 overs)"
+    ],
+    "hop2_query": "Mitchell Johnson: , who bowled Mumbai last over , and how many did Rising Pune Supergiant need from it ?"
+  },
+  "twin-04": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_australia_in_2020-21::s014::m0",
+        "Indian cricket team in Australia in 2020–21 › Test series › 2nd Test (26–30 December 2020)",
+        0.691
+      ]
+    ],
+    "by_search": [
+      [
+        "indian_cricket_team_in_australia_in_2020-21::s014::m0",
+        "Indian cricket team in Australia in 2020–21 › Test series › 2nd Test (26–30 December 2020)"
+      ],
+      [
+        "indian_cricket_team_in_australia_in_2020-21::s003::m1",
+        "Indian cricket team in Australia in 2020–21 › Tour matches (11–13 December 2020 (D/N))"
+      ],
+      [
+        "indian_cricket_team_in_australia_in_2020-21::s003::m0",
+        "Indian cricket team in Australia in 2020–21 › Tour matches (6–8 December 2020)"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Ajinkya Rahane",
+        0.581
+      ],
+      [
+        "HELD_AT",
+        "Melbourne Cricket Ground",
+        0.566
+      ],
+      [
+        "TOP_BOWLER",
+        "Nathan Lyon",
+        0.543
+      ],
+      [
+        "TOP_BOWLER",
+        "Jasprit Bumrah",
+        0.562
+      ],
+      [
+        "TOP_BOWLER",
+        "Mitchell Starc",
+        0.535
+      ],
+      [
+        "TOP_BATTER",
+        "Marnus Labuschagne",
+        0.517
+      ],
+      [
+        "TOP_BATTER",
+        "Ajinkya Rahane",
+        0.575
+      ],
+      [
+        "TOP_BATTER",
+        "Shubman Gill",
+        0.554
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_australia_in_2020-21::s014::00",
+      "ajinkya_rahane::s004::01",
+      "ajinkya_rahane::s007::01",
+      "ajinkya_rahane::s007::00"
+    ],
+    "via": [
+      "indian_cricket_team_in_australia_in_2020-21::s014::m0",
+      "PLAYER_OF_MATCH",
+      "Ajinkya Rahane",
+      "Player of the match: Ajinkya Rahane (Ind)"
+    ],
+    "hop2_query": "Ajinkya Rahane: Who scored a century for India Boxing Day at MCG , and how did his innings end ?"
+  },
+  "pron-02": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_england_in_2014::s009::m0",
+        "Indian cricket team in England in 2014 › Test series › 5th Test (15–19 August 2014)",
+        0.772
+      ]
+    ],
+    "by_search": [
+      [
+        "indian_cricket_team_in_england_in_2014::s009::m0",
+        "Indian cricket team in England in 2014 › Test series › 5th Test (15–19 August 2014)"
+      ],
+      [
+        "indian_cricket_team_in_england_in_2014::s005::m0",
+        "Indian cricket team in England in 2014 › Test series › 1st Test (9–13 July 2014)"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Joe Root",
+        0.572
+      ],
+      [
+        "HELD_AT",
+        "The Oval",
+        0.644
+      ],
+      [
+        "TOP_BATTER",
+        "MS Dhoni",
+        0.603
+      ],
+      [
+        "TOP_BATTER",
+        "Joe Root",
+        0.555
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_england_in_2014::s009::00",
+      "the_oval::s006::00",
+      "the_oval::s010::01",
+      "the_oval::s008::00"
+    ],
+    "via": [
+      "indian_cricket_team_in_england_in_2014::s009::m0",
+      "HELD_AT",
+      "The Oval",
+      "Venue: The Oval, London"
+    ],
+    "hop2_query": "The Oval: India's at Oval , who put on a last wicket partnership India's first innings , and worth how many ?"
+  },
+  "pron-03": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2013_ashes_series::s004::m0",
+        "2013 Ashes series › Matches › Second Test (18–22 July)",
+        0.821
+      ]
+    ],
+    "by_search": [
+      [
+        "2013-14_ashes_series::s003::m0",
+        "2013–14 Ashes series › Matches › Second Test (5–9 December)"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Joe Root",
+        0.607
+      ],
+      [
+        "HELD_AT",
+        "Lord's",
+        0.62
+      ],
+      [
+        "TOP_BATTER",
+        "Joe Root",
+        0.606
+      ]
+    ],
+    "chunks": [
+      "2013_ashes_series::s004::00",
+      "lords::s000::00",
+      "lords::s003::01",
+      "lords::s000::01"
+    ],
+    "via": [
+      "2013_ashes_series::s004::m0",
+      "HELD_AT",
+      "Lord's",
+      "Venue: Lord's Cricket Ground, London"
+    ],
+    "hop2_query": "Lord's: What was England's score at stumps on day two Ashes Adelaide , and who had taken wicket ?"
+  },
+  "multi-01": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2023_cricket_world_cup_final::final",
+        "2023 Cricket World Cup final",
+        0.73
+      ]
+    ],
+    "by_search": [
+      [
+        "2023_cricket_world_cup_final::final",
+        "2023 Cricket World Cup final"
+      ],
+      [
+        "narendra_modi_stadium::s013::m4",
+        "Narendra Modi Stadium › World Cup matches › 2023 Cricket World Cup (19 November 2023; 14:00 (D/N))"
+      ],
+      [
+        "2023_cricket_world_cup::s019::m0",
+        "2023 Cricket World Cup › Knockout stage › Final (19 November 2023; 14:00 (D/N))"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Travis Head",
+        0.669
+      ],
+      [
+        "HELD_AT",
+        "Narendra Modi Stadium",
+        0.544
+      ],
+      [
+        "TOP_BOWLER",
+        "Jasprit Bumrah",
+        0.538
+      ],
+      [
+        "TOP_BOWLER",
+        "Mitchell Starc",
+        0.516
+      ],
+      [
+        "TOP_BATTER",
+        "Travis Head",
+        0.694
+      ]
+    ],
+    "chunks": [
+      "2023_cricket_world_cup_final::s007::00",
+      "travis_head::s001::03",
+      "travis_head::s006::01",
+      "travis_head::s004::01"
+    ],
+    "via": [
+      "2023_cricket_world_cup_final::final",
+      "TOP_BATTER",
+      "Travis Head",
+      "Australia: Travis Head 137 (120); Jasprit Bumrah 2/43 (9 overs)"
+    ],
+    "hop2_query": "Travis Head: , how many did Rohit Sharma score for India , and what did Travis Head make Australia's chase ?"
+  },
+  "multi-02": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_australia_in_2020-21::s019::m0",
+        "Indian cricket team in Australia in 2020–21 › Test series › 3rd Test (7–11 January 2021)",
+        0.678
+      ]
+    ],
+    "by_search": [
+      [
+        "indian_cricket_team_in_australia_in_2020-21::s025::m0",
+        "Indian cricket team in Australia in 2020–21 › Test series › 4th Test (15–19 January 2021)"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Sydney Cricket Ground",
+        0.532
+      ],
+      [
+        "TOP_BOWLER",
+        "Ravindra Jadeja",
+        0.534
+      ],
+      [
+        "TOP_BOWLER",
+        "Josh Hazlewood",
+        0.526
+      ],
+      [
+        "TOP_BOWLER",
+        "Pat Cummins",
+        0.51
+      ],
+      [
+        "TOP_BATTER",
+        "Rishabh Pant",
+        0.668
+      ],
+      [
+        "TOP_BATTER",
+        "Shubman Gill",
+        0.702
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_australia_in_2020-21::s019::00",
+      "shubman_gill::s003::07",
+      "shubman_gill::s003::04",
+      "shubman_gill::s003::02"
+    ],
+    "via": [
+      "indian_cricket_team_in_australia_in_2020-21::s019::m0",
+      "TOP_BATTER",
+      "Shubman Gill",
+      "India: 244 (100.4 overs); Shubman Gill 50 (101); Pat Cummins 4/29 (21.4 overs)"
+    ],
+    "hop2_query": "Shubman Gill: Gabba , what target did India chase on last day , and what did Shubman Gill score chase ?"
+  },
+  "multi-03": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2019_ashes_series::s021::m0",
+        "2019 Ashes series › Matches › Fourth Test (4–8 September 2019)",
+        0.731
+      ]
+    ],
+    "by_search": [
+      [
+        "2019_ashes_series::s016::m0",
+        "2019 Ashes series › Matches › Third Test (22–26 August 2019)"
+      ],
+      [
+        "2015_ashes_series::s006::m0",
+        "2015 Ashes series › Matches › Fourth Test (6–10 August)"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Old Trafford Cricket Ground",
+        0.515
+      ],
+      [
+        "TOP_BOWLER",
+        "Stuart Broad",
+        0.518
+      ],
+      [
+        "TOP_BOWLER",
+        "Josh Hazlewood",
+        0.53
+      ],
+      [
+        "TOP_BOWLER",
+        "Pat Cummins",
+        0.486
+      ]
+    ],
+    "chunks": [
+      "2019_ashes_series::s021::00",
+      "josh_hazlewood::s000::01",
+      "josh_hazlewood::s000::00",
+      "josh_hazlewood::s000::02"
+    ],
+    "via": [
+      "2019_ashes_series::s021::m0",
+      "TOP_BOWLER",
+      "Josh Hazlewood",
+      "England: 301 (107 overs); Rory Burns 81 (185); Josh Hazlewood 4/57 (25 overs)"
+    ],
+    "hop2_query": "Josh Hazlewood: On day Headingley Ashes , how many did Joe Root and Jonny Bairstow each make before they were out ?"
+  },
+  "multi-04": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2017_champions_trophy::s013::m0",
+        "2017 Champions Trophy › Knockout stage › Final (18 June 2017; 10:30)",
+        0.761
+      ]
+    ],
+    "by_search": [
+      [
+        "2017_champions_trophy::s013::m0",
+        "2017 Champions Trophy › Knockout stage › Final (18 June 2017; 10:30)"
+      ],
+      [
+        "2017_champions_trophy_final::final",
+        "2017 Champions Trophy final"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "The Oval",
+        0.551
+      ]
+    ],
+    "chunks": [
+      "2017_champions_trophy::s013::00",
+      "the_oval::s008::00",
+      "the_oval::s001::03",
+      "the_oval::s007::00"
+    ],
+    "via": [
+      "2017_champions_trophy::s013::m0",
+      "HELD_AT",
+      "The Oval",
+      "Venue: The Oval, London"
+    ],
+    "hop2_query": "The Oval: Champions , on what score was Fakhar Zaman reprieved by a no ball , and how many did he go on to make ?"
+  },
+  "bio-01": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2019_ashes_series::s003::m0",
+        "2019 Ashes series › Matches › First Test (1–5 August 2019)",
+        0.687
+      ]
+    ],
+    "by_search": [],
+    "hops": [
+      [
+        "HELD_AT",
+        "Edgbaston Cricket Ground",
+        0.588
+      ],
+      [
+        "TOP_BOWLER",
+        "Pat Cummins",
+        0.537
+      ],
+      [
+        "TOP_BOWLER",
+        "Ben Stokes",
+        0.556
+      ],
+      [
+        "TOP_BOWLER",
+        "Stuart Broad",
+        0.577
+      ],
+      [
+        "TOP_BOWLER",
+        "Nathan Lyon",
+        0.572
+      ]
+    ],
+    "chunks": [
+      "2019_ashes_series::s003::00",
+      "edgbaston_cricket_ground::s007::03",
+      "edgbaston_cricket_ground::s002::01",
+      "edgbaston_cricket_ground::s001::01"
+    ],
+    "via": [
+      "2019_ashes_series::s003::m0",
+      "HELD_AT",
+      "Edgbaston Cricket Ground",
+      "Venue: Edgbaston, Birmingham"
+    ],
+    "hop2_query": "Edgbaston Cricket Ground: Who was Jasprit Bumrah's wicket , and where did he make his debut ?"
+  },
+  "bio-03": {
+    "kind": "old",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2023_ashes_series::s019::m0",
+        "2023 Ashes series › Matches › Fourth Test (19–23 July 2023)",
+        0.813
+      ]
+    ],
+    "by_search": [],
+    "hops": [
+      [
+        "HELD_AT",
+        "Old Trafford Cricket Ground",
+        0.678
+      ],
+      [
+        "TOP_BOWLER",
+        "Josh Hazlewood",
+        0.528
+      ],
+      [
+        "TOP_BATTER",
+        "Marnus Labuschagne",
+        0.486
+      ]
+    ],
+    "chunks": [
+      "2023_ashes_series::s019::00",
+      "old_trafford_cricket_ground::s000::01",
+      "old_trafford_cricket_ground::s003::00",
+      "old_trafford_cricket_ground::s011::00"
+    ],
+    "via": [
+      "2023_ashes_series::s019::m0",
+      "HELD_AT",
+      "Old Trafford Cricket Ground",
+      "Venue: Old Trafford, Manchester"
+    ],
+    "hop2_query": "Old Trafford Cricket Ground: Which Ashes was Perth Stadium announced to host October ?"
+  },
+  "chain-01": {
+    "kind": "chain",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2023_world_test_championship_final::final",
+        "2023 World Test Championship final",
+        0.81
+      ]
+    ],
+    "by_search": [
+      [
+        "2023_world_test_championship_final::final",
+        "2023 World Test Championship final"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Travis Head",
+        0.509
+      ],
+      [
+        "HELD_AT",
+        "The Oval",
+        0.667
+      ],
+      [
+        "TOP_BOWLER",
+        "Ravindra Jadeja",
+        0.416
+      ],
+      [
+        "TOP_BOWLER",
+        "Nathan Lyon",
+        0.451
+      ],
+      [
+        "TOP_BOWLER",
+        "Pat Cummins",
+        0.432
+      ],
+      [
+        "TOP_BATTER",
+        "Virat Kohli",
+        0.444
+      ],
+      [
+        "TOP_BATTER",
+        "Travis Head",
+        0.492
+      ],
+      [
+        "TOP_BATTER",
+        "Ajinkya Rahane",
+        0.445
+      ]
+    ],
+    "chunks": [
+      "2023_world_test_championship_final::s000::00",
+      "the_oval::s002::00",
+      "the_oval::s000::00",
+      "the_oval::s004::00"
+    ],
+    "via": [
+      "2023_world_test_championship_final::final",
+      "HELD_AT",
+      "The Oval",
+      "Venue: The Oval, London"
+    ],
+    "hop2_query": "The Oval: What are two ends ground that hosted called ?",
+    "gold_in_walk": true,
+    "gold_in_ircot": true
+  },
+  "chain-02": {
+    "kind": "chain",
+    "ircot_correct": 0.0,
+    "by_name": [
+      [
+        "wankhede_stadium::s011::m1",
+        "Wankhede Stadium › Cricket World Cup › 2011 Cricket World Cup (18 March 2011)",
+        0.759
+      ]
+    ],
+    "by_search": [],
+    "hops": [
+      [
+        "HELD_AT",
+        "Wankhede Stadium",
+        0.671
+      ]
+    ],
+    "chunks": [
+      "wankhede_stadium::s011::00",
+      "wankhede_stadium::s002::00",
+      "wankhede_stadium::s003::00",
+      "wankhede_stadium::s004::00"
+    ],
+    "via": [
+      "wankhede_stadium::s011::m1",
+      "HELD_AT",
+      "Wankhede Stadium",
+      "(listed in the ground's article)"
+    ],
+    "hop2_query": "Wankhede Stadium: How long did it take to build stadium that hosted , and when did it open ?",
+    "gold_in_walk": true,
+    "gold_in_ircot": false
+  },
+  "chain-03": {
+    "kind": "chain",
+    "ircot_correct": 0.0,
+    "by_name": [
+      [
+        "2025_indian_premier_league_final::final",
+        "2025 Indian Premier League final",
+        0.791
+      ]
+    ],
+    "by_search": [
+      [
+        "2025_indian_premier_league::s017::m0",
+        "2025 Indian Premier League › Playoffs › Final (Final; 3 June 2025 (2025-06-03); 19:30 (N))"
+      ],
+      [
+        "2025_indian_premier_league_final::final",
+        "2025 Indian Premier League final"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Narendra Modi Stadium",
+        0.719
+      ],
+      [
+        "TOP_BATTER",
+        "Virat Kohli",
+        0.494
+      ]
+    ],
+    "chunks": [
+      "2025_indian_premier_league_final::s000::00",
+      "narendra_modi_stadium::s000::02",
+      "narendra_modi_stadium::s000::03",
+      "narendra_modi_stadium::s004::00"
+    ],
+    "via": [
+      "2025_indian_premier_league_final::final",
+      "HELD_AT",
+      "Narendra Modi Stadium",
+      "Venue: Narendra Modi Stadium, Ahmedabad"
+    ],
+    "hop2_query": "Narendra Modi Stadium: Who opened stadium that hosted , and on what date ?",
+    "gold_in_walk": true,
+    "gold_in_ircot": true
+  },
+  "chain-04": {
+    "kind": "chain",
+    "ircot_correct": 0.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_england_in_2025::s006::m0",
+        "Indian cricket team in England in 2025 › Test series › 1st Test (20–24 June 2025)",
+        0.772
+      ]
+    ],
+    "by_search": [],
+    "hops": [
+      [
+        "HELD_AT",
+        "Headingley Cricket Ground",
+        0.695
+      ],
+      [
+        "TOP_BOWLER",
+        "Ben Stokes",
+        0.513
+      ],
+      [
+        "TOP_BOWLER",
+        "Jasprit Bumrah",
+        0.537
+      ],
+      [
+        "TOP_BATTER",
+        "Shubman Gill",
+        0.505
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_england_in_2025::s006::00",
+      "headingley_cricket_ground::s003::00",
+      "headingley_cricket_ground::s000::00",
+      "headingley_cricket_ground::s000::01"
+    ],
+    "via": [
+      "indian_cricket_team_in_england_in_2025::s006::m0",
+      "HELD_AT",
+      "Headingley Cricket Ground",
+      "Venue: Headingley, Leeds"
+    ],
+    "hop2_query": "Headingley Cricket Ground: What is spectator capacity ground that hosted India's ?",
+    "gold_in_walk": true,
+    "gold_in_ircot": false
+  },
+  "chain-05": {
+    "kind": "chain",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2025-26_ashes_series::s006::m0",
+        "2025–26 Ashes series › Matches › First Test (21–22 November 2025)",
+        0.789
+      ]
+    ],
+    "by_search": [
+      [
+        "2025-26_ashes_series::s006::m0",
+        "2025–26 Ashes series › Matches › First Test (21–22 November 2025)"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Mitchell Starc",
+        0.496
+      ],
+      [
+        "HELD_AT",
+        "Perth Stadium",
+        0.715
+      ],
+      [
+        "TOP_BOWLER",
+        "Mitchell Starc",
+        0.459
+      ],
+      [
+        "TOP_BOWLER",
+        "Ben Stokes",
+        0.516
+      ],
+      [
+        "TOP_BATTER",
+        "Travis Head",
+        0.543
+      ]
+    ],
+    "chunks": [
+      "2025-26_ashes_series::s006::00",
+      "perth_stadium::s011::00",
+      "perth_stadium::s005::00",
+      "perth_stadium::s000::02"
+    ],
+    "via": [
+      "2025-26_ashes_series::s006::m0",
+      "HELD_AT",
+      "Perth Stadium",
+      "Venue: Perth Stadium, Perth"
+    ],
+    "hop2_query": "Perth Stadium: On what date was stadium that hosted Ashes officially opened ?",
+    "gold_in_walk": true,
+    "gold_in_ircot": true
+  },
+  "chain-06": {
+    "kind": "chain",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_australia_in_2024-25::s009::m0",
+        "Indian cricket team in Australia in 2024–25 › Test series › 1st Test (22–25 November 2024)",
+        0.758
+      ]
+    ],
+    "by_search": [],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Jasprit Bumrah",
+        0.632
+      ],
+      [
+        "HELD_AT",
+        "Perth Stadium",
+        0.746
+      ],
+      [
+        "TOP_BOWLER",
+        "Nathan Lyon",
+        0.542
+      ],
+      [
+        "TOP_BOWLER",
+        "Jasprit Bumrah",
+        0.579
+      ],
+      [
+        "TOP_BOWLER",
+        "Josh Hazlewood",
+        0.54
+      ],
+      [
+        "TOP_BATTER",
+        "Travis Head",
+        0.566
+      ],
+      [
+        "TOP_BATTER",
+        "Mitchell Starc",
+        0.547
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_australia_in_2024-25::s009::00",
+      "perth_stadium::s000::00",
+      "perth_stadium::s009::00",
+      "perth_stadium::s011::00"
+    ],
+    "via": [
+      "indian_cricket_team_in_australia_in_2024-25::s009::m0",
+      "HELD_AT",
+      "Perth Stadium",
+      "Venue: Perth Stadium, Perth"
+    ],
+    "hop2_query": "Perth Stadium: what year was played at ground that hosted India's ?",
+    "gold_in_walk": false,
+    "gold_in_ircot": false
+  },
+  "chain-07": {
+    "kind": "chain",
+    "ircot_correct": 0.0,
+    "by_name": [
+      [
+        "2024_indian_premier_league_final::final",
+        "2024 Indian Premier League final",
+        0.789
+      ]
+    ],
+    "by_search": [
+      [
+        "2024_indian_premier_league::s017::m0",
+        "2024 Indian Premier League › Playoffs › Final (Final; 26 May 2024; 19:30 (N))"
+      ],
+      [
+        "2024_indian_premier_league_final::final",
+        "2024 Indian Premier League final"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Mitchell Starc",
+        0.688
+      ],
+      [
+        "HELD_AT",
+        "M. A. Chidambaram Stadium",
+        0.629
+      ],
+      [
+        "TOP_BOWLER",
+        "Pat Cummins",
+        0.562
+      ],
+      [
+        "TOP_BATTER",
+        "Pat Cummins",
+        0.556
+      ]
+    ],
+    "chunks": [
+      "2024_indian_premier_league_final::s000::00",
+      "mitchell_starc::s001::00",
+      "mitchell_starc::s003::03",
+      "mitchell_starc::s009::02"
+    ],
+    "via": [
+      "2024_indian_premier_league_final::final",
+      "PLAYER_OF_MATCH",
+      "Mitchell Starc",
+      "Player of the match: Mitchell Starc (KKR)"
+    ],
+    "hop2_query": "Mitchell Starc: Which school did player match attend ?",
+    "gold_in_walk": true,
+    "gold_in_ircot": true
+  },
+  "chain-08": {
+    "kind": "chain",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_australia_in_2024-25::s009::m0",
+        "Indian cricket team in Australia in 2024–25 › Test series › 1st Test (22–25 November 2024)",
+        0.779
+      ]
+    ],
+    "by_search": [],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Jasprit Bumrah",
+        0.588
+      ],
+      [
+        "HELD_AT",
+        "Perth Stadium",
+        0.662
+      ],
+      [
+        "TOP_BOWLER",
+        "Nathan Lyon",
+        0.505
+      ],
+      [
+        "TOP_BOWLER",
+        "Jasprit Bumrah",
+        0.533
+      ],
+      [
+        "TOP_BOWLER",
+        "Josh Hazlewood",
+        0.489
+      ],
+      [
+        "TOP_BATTER",
+        "Travis Head",
+        0.546
+      ],
+      [
+        "TOP_BATTER",
+        "Mitchell Starc",
+        0.515
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_australia_in_2024-25::s009::00",
+      "perth_stadium::s000::00",
+      "perth_stadium::s009::00",
+      "perth_stadium::s000::01"
+    ],
+    "via": [
+      "indian_cricket_team_in_australia_in_2024-25::s009::m0",
+      "HELD_AT",
+      "Perth Stadium",
+      "Venue: Perth Stadium, Perth"
+    ],
+    "hop2_query": "Perth Stadium: How many people can stadium that hosted India's hold ?",
+    "gold_in_walk": true,
+    "gold_in_ircot": true
+  },
+  "gap-02": {
+    "kind": "gap",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2025_indian_premier_league::s012::m40",
+        "2025 Indian Premier League › League stage › Fixtures (Match 41; 23 April 2025 (2025-04-23); 19:30 (N))",
+        0.669
+      ]
+    ],
+    "by_search": [
+      [
+        "2023_world_test_championship_final::final",
+        "2023 World Test Championship final"
+      ]
+    ],
+    "hops": [
+      [
+        "TOP_BATTER",
+        "Rohit Sharma",
+        0.4
+      ]
+    ],
+    "chunks": [
+      "2025_indian_premier_league::s012::29",
+      "rohit_sharma::s012::00",
+      "rohit_sharma::s004::02",
+      "rohit_sharma::s000::02"
+    ],
+    "via": [
+      "2025_indian_premier_league::s012::m40",
+      "TOP_BATTER",
+      "Rohit Sharma",
+      "Mumbai Indians: Rohit Sharma 70 (46); Jaydev Unadkat 1/25 (3 overs)"
+    ],
+    "hop2_query": "Rohit Sharma: Which radio commentary team did Cheteshwar Pujara join June , and for which ?"
+  },
+  "gap-04": {
+    "kind": "gap",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2021-22_ashes_series::s015::m0",
+        "2021–22 Ashes series › Matches › Third Test (26–30 December 2021)",
+        0.691
+      ]
+    ],
+    "by_search": [
+      [
+        "2019_cricket_world_cup_final::final",
+        "2019 Cricket World Cup final"
+      ],
+      [
+        "2019_cricket_world_cup::s023::m0",
+        "2019 Cricket World Cup › Knockout stage › Final (14 July 2019; 10:30)"
+      ],
+      [
+        "2019_cricket_world_cup_group_stage::s027::m0",
+        "2019 Cricket World Cup group stage › Matches › New Zealand vs South Africa (19 June 2019; 10:30)"
+      ],
+      [
+        "2021_mens_t20_world_cup_final::final",
+        "2021 Men's T20 World Cup final"
+      ],
+      [
+        "2021_mens_t20_world_cup::s017::m0",
+        "2021 Men's T20 World Cup › Knockout stage › Final (14 November 2021; 18:00 (N))"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Melbourne Cricket Ground",
+        0.62
+      ],
+      [
+        "TOP_BOWLER",
+        "Nathan Lyon",
+        0.598
+      ],
+      [
+        "TOP_BATTER",
+        "Joe Root",
+        0.539
+      ]
+    ],
+    "chunks": [
+      "2021-22_ashes_series::s015::00",
+      "melbourne_cricket_ground::s000::05",
+      "melbourne_cricket_ground::s000::01",
+      "melbourne_cricket_ground::s006::04"
+    ],
+    "via": [
+      "2021-22_ashes_series::s015::m0",
+      "HELD_AT",
+      "Melbourne Cricket Ground",
+      "Venue: Melbourne Cricket Ground, Melbourne"
+    ],
+    "hop2_query": "Melbourne Cricket Ground: When did Kane Williamson retire from international cricket , and what did he score his last match ?"
+  },
+  "gap-06": {
+    "kind": "gap",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_australia_in_2018-19::s002::m0",
+        "Indian cricket team in Australia in 2018–19 › T20I series › 1st T20I (21 November 2018; 17:50 (D/N))",
+        0.707
+      ]
+    ],
+    "by_search": [
+      [
+        "2024_mens_t20_world_cup::s018::m1",
+        "2024 Men's T20 World Cup › Super 8 stage › Group 1 (Match 44; 20 June 2024 (2024-06-20); 20:30 UTC−4 (N))"
+      ],
+      [
+        "2024_mens_t20_world_cup::s018::m0",
+        "2024 Men's T20 World Cup › Super 8 stage › Group 1 (Match 43; 20 June 2024 (2024-06-20); 10:30 UTC−4)"
+      ],
+      [
+        "narendra_modi_stadium::s014::m6",
+        "Narendra Modi Stadium › World Cup matches › 2026 T20 World Cup (March 8, 2026 (2026-03-08); 19:00 UTC+5:30 (N))"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "The Gabba",
+        0.49
+      ],
+      [
+        "TOP_BATTER",
+        "Glenn Maxwell",
+        0.56
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_australia_in_2018-19::s002::00",
+      "glenn_maxwell::s009::03",
+      "glenn_maxwell::s009::01",
+      "glenn_maxwell::s009::02"
+    ],
+    "via": [
+      "indian_cricket_team_in_australia_in_2018-19::s002::m0",
+      "TOP_BATTER",
+      "Glenn Maxwell",
+      "Australia: Glenn Maxwell 46 (24); Kuldeep Yadav 2/24 (4 overs)"
+    ],
+    "hop2_query": "Glenn Maxwell: How many runs did Suryakumar Yadav score India's home series against New Zealand January , and what award did he win ?"
+  },
+  "trap-01": {
+    "kind": "trap",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_england_in_2014::s005::m0",
+        "Indian cricket team in England in 2014 › Test series › 1st Test (9–13 July 2014)",
+        0.681
+      ]
+    ],
+    "by_search": [
+      [
+        "indian_cricket_team_in_england_in_2025::s007::m0",
+        "Indian cricket team in England in 2025 › Test series › 2nd Test (2–6 July 2025)"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Trent Bridge",
+        0.496
+      ],
+      [
+        "TOP_BATTER",
+        "Joe Root",
+        0.611
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_england_in_2014::s005::00",
+      "joe_root::s000::03",
+      "joe_root::s000::02",
+      "joe_root::s009::00"
+    ],
+    "via": [
+      "indian_cricket_team_in_england_in_2014::s005::m0",
+      "TOP_BATTER",
+      "Joe Root",
+      "England: 496 (144.5 overs); Joe Root 154* (295); Bhuvneshwar Kumar 5/82 (30.5 overs)"
+    ],
+    "hop2_query": "Joe Root: What is highest individual score by an captain , and who made it ?"
+  },
+  "trap-04": {
+    "kind": "trap",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2015_cricket_world_cup_final::final",
+        "2015 Cricket World Cup final",
+        0.795
+      ]
+    ],
+    "by_search": [
+      [
+        "2015_cricket_world_cup::s021::m1",
+        "2015 Cricket World Cup › Knockout stage › Matches › Semi-finals (26 March; 14:30 (AEDT) (D/N))"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Melbourne Cricket Ground",
+        0.507
+      ],
+      [
+        "TOP_BOWLER",
+        "Mitchell Johnson",
+        0.559
+      ]
+    ],
+    "chunks": [
+      "2015_cricket_world_cup_final::s006::01",
+      "mitchell_johnson::s009::00",
+      "mitchell_johnson::s000::00",
+      "mitchell_johnson::s000::03"
+    ],
+    "via": [
+      "2015_cricket_world_cup_final::final",
+      "TOP_BOWLER",
+      "Mitchell Johnson",
+      "New Zealand: Grant Elliott 83 (82); Mitchell Johnson 3/30 (9 overs)"
+    ],
+    "hop2_query": "Mitchell Johnson: As , what was highest team total a semi , and which team made it ?"
+  },
+  "trap-05": {
+    "kind": "trap",
+    "ircot_correct": 0.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_england_in_2014::s010::m0",
+        "Indian cricket team in England in 2014 › ODI series › 1st ODI (25 August 2014; 10:30)",
+        0.757
+      ]
+    ],
+    "by_search": [
+      [
+        "indian_cricket_team_in_england_in_2025::s007::m0",
+        "Indian cricket team in England in 2025 › Test series › 2nd Test (2–6 July 2025)"
+      ],
+      [
+        "english_cricket_team_in_india_in_2016-17::s006::m0",
+        "English cricket team in India in 2016–17 › Test series › 5th Test (16–20 December 2016)"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Shubman Gill",
+        0.595
+      ],
+      [
+        "HELD_AT",
+        "Edgbaston Cricket Ground",
+        0.538
+      ],
+      [
+        "TOP_BATTER",
+        "Shubman Gill",
+        0.643
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_england_in_2025::s007::00",
+      "shubman_gill::s003::08",
+      "shubman_gill::s009::00",
+      "shubman_gill::s000::03"
+    ],
+    "via": [
+      "indian_cricket_team_in_england_in_2025::s007::m0",
+      "TOP_BATTER",
+      "Shubman Gill",
+      "India: 587 (151 overs); Shubman Gill 269 (387); Shoaib Bashir 3/167 (45 overs)"
+    ],
+    "hop2_query": "Shubman Gill: What is highest individual score by an batter against , and who made it ?"
+  },
+  "pair-01": {
+    "kind": "pair",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2019_cricket_world_cup_final::final",
+        "2019 Cricket World Cup final",
+        0.754
+      ]
+    ],
+    "by_search": [],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Ben Stokes",
+        0.812
+      ],
+      [
+        "HELD_AT",
+        "Lord's",
+        0.523
+      ],
+      [
+        "TOP_BATTER",
+        "Ben Stokes",
+        0.799
+      ]
+    ],
+    "chunks": [
+      "2019_cricket_world_cup_final::s000::00",
+      "ben_stokes::s000::00",
+      "ben_stokes::s026::00",
+      "ben_stokes::s001::00"
+    ],
+    "via": [
+      "2019_cricket_world_cup_final::final",
+      "PLAYER_OF_MATCH",
+      "Ben Stokes",
+      "Player of the match: Ben Stokes (Eng)"
+    ],
+    "hop2_query": "Ben Stokes: How many did Ben Stokes score , and where was he born ?"
+  },
+  "pair-02": {
+    "kind": "pair",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2012_indian_premier_league_final::final",
+        "2012 Indian Premier League final",
+        0.77
+      ]
+    ],
+    "by_search": [
+      [
+        "2012_indian_premier_league_final::final",
+        "2012 Indian Premier League final"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "M. A. Chidambaram Stadium",
+        0.616
+      ]
+    ],
+    "chunks": [
+      "2012_indian_premier_league_final::s000::00",
+      "m_a_chidambaram_stadium::s000::00",
+      "m_a_chidambaram_stadium::s000::01",
+      "m_a_chidambaram_stadium::s006::00"
+    ],
+    "via": [
+      "2012_indian_premier_league_final::final",
+      "HELD_AT",
+      "M. A. Chidambaram Stadium",
+      "Venue: M. A. Chidambaram Stadium, Chennai"
+    ],
+    "hop2_query": "M. A. Chidambaram Stadium: Who was player match , and who took most wickets that season ?"
+  },
+  "pair-03": {
+    "kind": "pair",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2010_indian_premier_league_final::final",
+        "2010 Indian Premier League final",
+        0.723
+      ]
+    ],
+    "by_search": [
+      [
+        "2010_indian_premier_league_final::final",
+        "2010 Indian Premier League final"
+      ],
+      [
+        "2013_indian_premier_league_final::final",
+        "2013 Indian Premier League final"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Eden Gardens",
+        0.464
+      ]
+    ],
+    "chunks": [
+      "2013_indian_premier_league_final::s000::00",
+      "eden_gardens::s025::00",
+      "eden_gardens::s023::02",
+      "eden_gardens::s025::01"
+    ],
+    "via": [
+      "2013_indian_premier_league_final::final",
+      "HELD_AT",
+      "Eden Gardens",
+      "Venue: Eden Gardens, Kolkata"
+    ],
+    "hop2_query": "Eden Gardens: By how many runs did Chennai Super Kings win , and how many runs did Sachin Tendulkar score that season ?"
+  },
+  "pair-04": {
+    "kind": "pair",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2015_ashes_series::s007::m0",
+        "2015 Ashes series › Matches › Fifth Test (20–24 August)",
+        0.676
+      ]
+    ],
+    "by_search": [
+      [
+        "2015_ashes_series::s006::m0",
+        "2015 Ashes series › Matches › Fourth Test (6–10 August)"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "The Oval",
+        0.524
+      ],
+      [
+        "TOP_BOWLER",
+        "Mitchell Johnson",
+        0.591
+      ],
+      [
+        "TOP_BATTER",
+        "Alastair Cook",
+        0.529
+      ]
+    ],
+    "chunks": [
+      "2015_ashes_series::s007::00",
+      "mitchell_johnson::s011::01",
+      "mitchell_johnson::s007::01",
+      "mitchell_johnson::s011::00"
+    ],
+    "via": [
+      "2015_ashes_series::s007::m0",
+      "TOP_BOWLER",
+      "Mitchell Johnson",
+      "England: 149 (48.4 overs); Moeen Ali 30 (61); Mitchell Johnson 3/21 (8.4 overs)"
+    ],
+    "hop2_query": "Mitchell Johnson: How many wickets did James Anderson take his career , and what were Stuart Broad's figures when Australia were bowled out for 60 at Trent Bridge ?"
+  },
+  "pair-05": {
+    "kind": "pair",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2024_indian_premier_league_final::final",
+        "2024 Indian Premier League final",
+        0.682
+      ]
+    ],
+    "by_search": [
+      [
+        "2024_indian_premier_league_final::final",
+        "2024 Indian Premier League final"
+      ],
+      [
+        "2024_indian_premier_league::s017::m0",
+        "2024 Indian Premier League › Playoffs › Final (Final; 26 May 2024; 19:30 (N))"
+      ]
+    ],
+    "hops": [
+      [
+        "PLAYER_OF_MATCH",
+        "Mitchell Starc",
+        0.477
+      ],
+      [
+        "HELD_AT",
+        "M. A. Chidambaram Stadium",
+        0.453
+      ],
+      [
+        "TOP_BOWLER",
+        "Pat Cummins",
+        0.704
+      ],
+      [
+        "TOP_BATTER",
+        "Pat Cummins",
+        0.777
+      ]
+    ],
+    "chunks": [
+      "2024_indian_premier_league_final::s004::00",
+      "pat_cummins::s001::00",
+      "pat_cummins::s000::00",
+      "pat_cummins::s002::00"
+    ],
+    "via": [
+      "2024_indian_premier_league_final::final",
+      "TOP_BATTER",
+      "Pat Cummins",
+      "Sunrisers Hyderabad: Pat Cummins 24 (19); Andre Russell 3/19 (2.3 overs)"
+    ],
+    "hop2_query": "Pat Cummins: Where was Pat Cummins born , and how many did he score ?"
+  },
+  "pair-06": {
+    "kind": "pair",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2022_mens_t20_world_cup_final::final",
+        "2022 Men's T20 World Cup final",
+        0.736
+      ]
+    ],
+    "by_search": [],
+    "hops": [
+      [
+        "HELD_AT",
+        "Melbourne Cricket Ground",
+        0.598
+      ],
+      [
+        "TOP_BATTER",
+        "Ben Stokes",
+        0.572
+      ]
+    ],
+    "chunks": [
+      "2022_mens_t20_world_cup_final::s000::00",
+      "melbourne_cricket_ground::s000::05",
+      "melbourne_cricket_ground::s000::01",
+      "melbourne_cricket_ground::s006::04"
+    ],
+    "via": [
+      "2022_mens_t20_world_cup_final::final",
+      "HELD_AT",
+      "Melbourne Cricket Ground",
+      "Venue: Melbourne Cricket Ground, Melbourne"
+    ],
+    "hop2_query": "Melbourne Cricket Ground: When was Jos Buttler appointed captain England's limited overs teams , and who was player match ?"
+  },
+  "alike-01": {
+    "kind": "alike",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "indian_cricket_team_in_australia_in_2018-19::s011::m0",
+        "Indian cricket team in Australia in 2018–19 › ODI series › 1st ODI (12 January 2019; 13:20 (D/N))",
+        0.681
+      ]
+    ],
+    "by_search": [
+      [
+        "2025_champions_trophy::s025::m0",
+        "2025 Champions Trophy › Group stage › Group B › Afghanistan vs England (26 February 2025; 14:00 UTC+5 (D/N))"
+      ],
+      [
+        "2025_champions_trophy::s023::m0",
+        "2025 Champions Trophy › Group stage › Group B › Australia vs England (22 February 2025; 14:00 UTC+5 (D/N))"
+      ],
+      [
+        "2017_champions_trophy::s013::m0",
+        "2017 Champions Trophy › Knockout stage › Final (18 June 2017; 10:30)"
+      ],
+      [
+        "2017_champions_trophy_final::final",
+        "2017 Champions Trophy final"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Sydney Cricket Ground",
+        0.625
+      ],
+      [
+        "TOP_BATTER",
+        "Rohit Sharma",
+        0.613
+      ]
+    ],
+    "chunks": [
+      "indian_cricket_team_in_australia_in_2018-19::s011::00",
+      "sydney_cricket_ground::s009::02",
+      "sydney_cricket_ground::s009::04",
+      "sydney_cricket_ground::s013::00"
+    ],
+    "via": [
+      "indian_cricket_team_in_australia_in_2018-19::s011::m0",
+      "HELD_AT",
+      "Sydney Cricket Ground",
+      "Venue: Sydney Cricket Ground, Sydney"
+    ],
+    "hop2_query": "Sydney Cricket Ground: What is highest individual score ICC Champions Trophy history , and who made it ?"
+  },
+  "alike-03": {
+    "kind": "alike",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2019_cricket_world_cup::s021::m0",
+        "2019 Cricket World Cup › Knockout stage › Semi-finals › Semifinal 1 (9–10 July 2019; 10:30)",
+        0.726
+      ]
+    ],
+    "by_search": [
+      [
+        "2015_cricket_world_cup_pool_a::s006::m0",
+        "2015 Cricket World Cup Pool A › Matches › New Zealand vs England (20 February; 14:00 (NZDT) (D/N))"
+      ]
+    ],
+    "hops": [
+      [
+        "HELD_AT",
+        "Old Trafford Cricket Ground",
+        0.488
+      ],
+      [
+        "TOP_BATTER",
+        "Ravindra Jadeja",
+        0.54
+      ]
+    ],
+    "chunks": [
+      "2019_cricket_world_cup::s021::00",
+      "ravindra_jadeja::s004::04",
+      "ravindra_jadeja::s003::00",
+      "ravindra_jadeja::s004::06"
+    ],
+    "via": [
+      "2019_cricket_world_cup::s021::m0",
+      "TOP_BATTER",
+      "Ravindra Jadeja",
+      "India: Ravindra Jadeja 77 (59); Matt Henry 3/37 (10 overs)"
+    ],
+    "hop2_query": "Ravindra Jadeja: What is fastest fifty history , and who scored it ?"
+  },
+  "alike-06": {
+    "kind": "alike",
+    "ircot_correct": 1.0,
+    "by_name": [
+      [
+        "2022_mens_t20_world_cup_final::final",
+        "2022 Men's T20 World Cup final",
+        0.726
+      ]
+    ],
+    "by_search": [],
+    "hops": [
+      [
+        "HELD_AT",
+        "Melbourne Cricket Ground",
+        0.462
+      ],
+      [
+        "TOP_BATTER",
+        "Ben Stokes",
+        0.513
+      ]
+    ],
+    "chunks": [
+      "2022_mens_t20_world_cup_final::s007::01",
+      "ben_stokes::s026::00",
+      "ben_stokes::s021::00",
+      "ben_stokes::s000::03"
+    ],
+    "via": [
+      "2022_mens_t20_world_cup_final::final",
+      "TOP_BATTER",
+      "Ben Stokes",
+      "England: Ben Stokes 52* (49); Haris Rauf 2/23 (4 overs)"
+    ],
+    "hop2_query": "Ben Stokes: What is fastest century history , and who scored it ?"
+  }
+}
