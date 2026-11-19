@@ -1,0 +1,164 @@
+{
+  "alike-04": {
+    "before": 0.0,
+    "now": 1.0,
+    "route": "single",
+    "answer": "Alzarri Joseph holds the record for the best bowling figures in IPL history with figures of 6/12 [1].",
+    "records": [
+      "[IPL records · Twenty20] Alzarri Joseph (Mumbai Indians) took the best bowling figures in the IPL.",
+      "[IPL records · Twenty20] Mohammad Nabi recorded the second-best bowling figures for Sunrisers Hyderabad in the IPL.",
+      "[IPL records · Twenty20] Sunil Narine's 5/19 is the best bowling figures in the IPL at Eden Gardens."
+    ],
+    "crag": {
+      "action": "AMBIGUOUS",
+      "scores": [
+        5,
+        5,
+        0,
+        0,
+        0
+      ],
+      "pool": 5,
+      "fallback": {
+        "scores": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "kept": []
+      },
+      "kept": [
+        "2019_indian_premier_league::rec::00935",
+        "eden_gardens::rec::01934",
+        "2017_indian_premier_league::s014::00",
+        "2019_indian_premier_league::rec::00933",
+        "2018_indian_premier_league::s016::00"
+      ]
+    },
+    "cost": 0.0026719499999999998
+  },
+  "alike-05": {
+    "before": 0.0,
+    "now": 0.0,
+    "route": "single",
+    "answer": "The highest individual score in an IPL match is 129 runs, made by Shubman Gill of the Gujarat Titans during the 2023 IPL Playoffs Qualifier 2 against the Mumbai Indians on 26 May 2023 [2].",
+    "records": [
+      "[IPL records · Twenty20] Shubman Gill (Gujarat Titans) made the highest individual score of 129 runs from 60 balls in IPL Playoffs.",
+      "[IPL records · Twenty20] Rajat Patidar hit the highest ever individual score in an IPL match at Eden Gardens with 112 (54 balls) during RCB ",
+      "[IPL records · Twenty20] During the 2018 Indian Premier League, Pant scored an unbeaten 128 from 63 balls against the Sunrisers Hyderabad, m"
+    ],
+    "crag": {
+      "action": "CORRECT",
+      "scores": [
+        5,
+        10,
+        5,
+        5,
+        10
+      ],
+      "pool": 5,
+      "kept": [
+        "2023_indian_premier_league::rec::00985",
+        "2023_indian_premier_league::s013::00",
+        "rishabh_pant::rec::02111",
+        "shubman_gill::s005::00",
+        "eden_gardens::rec::01933"
+      ]
+    },
+    "cost": 0.0026044500000000003
+  },
+  "trap-05": {
+    "before": 0.0,
+    "now": 0.0,
+    "route": "multi",
+    "answer": "The highest individual Test score by an Indian batter against England is 269, made by Shubman Gill during the 2nd Test at Edgbaston, Birmingham, from 2–6 July 2025 [1].",
+    "records": [
+      "[International records · Test] This marked the highest Test score by an Indian captain, the third-highest away Test score by an Indian batte",
+      "[International records · Test] Joe Root scored 218 runs in the first Test against India during England's tour of India in February 2021, whi",
+      "[International records · Test] India were put into bat by England and were reduced to 111 for 7, before making a recovery to finish 224 all "
+    ],
+    "crag": {
+      "action": "CORRECT",
+      "scores": [
+        10,
+        5,
+        0,
+        0,
+        0
+      ],
+      "pool": 5,
+      "kept": [
+        "indian_cricket_team_in_england_in_2025::s007::00",
+        "shubman_gill::rec::01658",
+        "shubman_gill::s003::08",
+        "shubman_gill::s009::00",
+        "shubman_gill::s000::03"
+      ]
+    },
+    "cost": 0.00196155
+  },
+  "twin-04": {
+    "before": 1.0,
+    "now": 1.0,
+    "route": "multi",
+    "answer": "Ajinkya Rahane scored a century for India in the Boxing Day Test at the MCG in December 2020, finishing with 112 runs off 223 balls [1].",
+    "records": [
+      "[International records · Test] India scored 759 runs in their first innings of the fifth Test against England in the home series in December",
+      "[International records · Test] Cook's form slump that had continued through the 2017–18 Ashes, where he had not scored a half-century in 10 ",
+      "[International records · Test] Nitish Kumar Reddy (Ind) scored his maiden century in Tests. He made the highest score for a batsman batting "
+    ],
+    "crag": {
+      "action": "CORRECT",
+      "scores": [
+        10,
+        5,
+        0,
+        10,
+        0,
+        0
+      ],
+      "pool": 6,
+      "kept": [
+        "indian_cricket_team_in_australia_in_2020-21::s014::00",
+        "indian_cricket_team_in_australia_in_2020-21::s014::01",
+        "indian_cricket_team_in_australia_in_2020-21::s018::00",
+        "ajinkya_rahane::s007::01",
+        "ajinkya_rahane::s007::00",
+        "ajinkya_rahane::s004::01"
+      ]
+    },
+    "cost": 0.0033908999999999996
+  },
+  "alike-02": {
+    "before": 1.0,
+    "now": 1.0,
+    "route": "single",
+    "answer": "David Miller (SA) scored the fastest century in Champions Trophy history during the match on 5 March 2025 against New Zealand [2].",
+    "records": [
+      "[International records · ODI] David Miller (SA) scored the fastest century in Champions Trophy history.",
+      "[International records · ODI] Virat Kohli (Ind) scored an unbeaten 100, marking his 51st century in One Day Internationals. His century brou",
+      "[International records · ODI] Inglis' century was the fastest-ever in the Champions Trophy."
+    ],
+    "crag": {
+      "action": "CORRECT",
+      "scores": [
+        10,
+        10,
+        10,
+        0,
+        10
+      ],
+      "pool": 5,
+      "kept": [
+        "2025_champions_trophy::s031::00",
+        "2025_champions_trophy::rec::00669",
+        "2025_champions_trophy::rec::00653",
+        "2025_champions_trophy::rec::00643",
+        "2025_champions_trophy::s023::01"
+      ]
+    },
+    "cost": 0.00252105
+  }
+}

@@ -51,6 +51,7 @@ LOG: dict[str, dict] = {}
 LINKED = {"on": False}
 ADD = {"on": False}
 FALLBACK = {"on": False}
+EXTRA_SEATS: list = []  # more searches whose hits get guaranteed rerank seats (records_route.py)
 IRCOT = partial(routes.search_loop, search="f6a")  # Adaptive #4's multi route, unchanged
 HOP_FACT = {"HELD_AT": "the match was played at {}", "PLAYER_OF_MATCH": "the player of the match was {}",
             "TOP_BATTER": "{} was the top run-scorer", "TOP_BOWLER": "{} was the best bowler"}
@@ -87,8 +88,10 @@ def graph_search(question: str, k: int = TOP_K) -> list | None:
     ids = {h.chunk_id for h in graph}
     if ADD["on"]:  # f6a's own top k (same rerank call as f6a, so cached), then the graph's chunks
         pool = fused[:rag_fusion.RERANK_POOL]
-    else:  # the graph chunks take guaranteed seats in the rerank pool
-        pool = graph + [h for h in fused if h.chunk_id not in ids][:rag_fusion.RERANK_POOL - len(graph)]
+    else:  # the graph chunks (and any extra searches' hits) take guaranteed seats in the rerank pool
+        seats = list({h.chunk_id: h for h in graph + [x for fn in EXTRA_SEATS for x in fn(question)]}.values())
+        sid = {h.chunk_id for h in seats}
+        pool = seats + [h for h in fused if h.chunk_id not in sid][:rag_fusion.RERANK_POOL - len(seats)]
     top = rag_fusion.llm_rerank(question, pool, ladder.labelled)[:k]
     shown = {h.chunk_id for h in top}
     out = top + [h for h in graph if h.chunk_id not in shown]
@@ -99,8 +102,8 @@ def graph_search(question: str, k: int = TOP_K) -> list | None:
 def graph_multi(question: str):
     routes._start()
     hits = graph_search(question)
-    if hits is None:
-        return routes.one_search(question, search="f6a")
+    if hits is None:  # plain f6a, or the single route's search when records are on
+        return baseline.ROUTE_FNS["single"](question)
     routes.USAGE.update(searches=1, thoughts=[], added=[[h.chunk_id for h in hits]])
     log = LOG[question]
     if LINKED["on"]:

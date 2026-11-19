@@ -1,0 +1,695 @@
+{
+  "which-01": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · series · overall record: no\n[International records · Test] Murali Vijay was out for a duck early in the innings before KL Rahul (31*) and Rohit Sh",
+      "Scope: Test · single match · only at England · overall record: no · 2014\n[International records · Test] India won the toss and with the help of Murali Vijay's f",
+      "Scope: Test · series · only at Australia · overall record: no · 2014–15\n[International records · Test] The first Test was scheduled to begin on 4 December in Br"
+    ]
+  },
+  "which-02": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at Sydney Cricket Ground · overall record: no · 2013-14\n[International records · Test] After claiming the wicket of Jonathan T",
+      "Scope: Test · single match · overall record: no · 2013–14\n[International records · Test] Australia named the same team as the previous four Tests, while for Eng",
+      "Scope: Test · series · overall record: no · 2013–14\n[International records · Test] Stokes took a career-best 6 wickets for 99 runs in the first innings of the 5"
+    ]
+  },
+  "which-03": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · overall record: no · 2023\n[International records · Test] England's openers started positively, raising a fifty partnership after 10",
+      "Scope: Test · series · overall record: no · 2019\n[International records · Test] Steve Smith, who made twin hundreds in the first Test and was a thorn in England",
+      "Scope: Test · single match · overall record: no\n[International records · Test] The second Test saw Root move up to number three, filling the spot vacated by Jon"
+    ]
+  },
+  "which-04": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: ICC T20 World Cup · tournament · only at Bangladesh · by India · overall record: no · 2014\n[International records · T20I] Medal record Men's Cricket Repr",
+      "Scope: Test · single match · only at Sri Lanka · overall record: yes · 2015\n[International records · Test] In the first Test of 2015 tour of Sri Lanka, Rahane b",
+      "Scope: T20I · final · only at 2014 World T20 · overall record: no\n[International records · Twenty20] Rahane was part of Indian team make it to the final of 2014"
+    ]
+  },
+  "which-05": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: overall record: no\n[International records] Most wickets: Shardul Thakur (7)",
+      "Scope: overall record: no\n[International records] Most wickets: Shardul Thakur (8)",
+      "Scope: Test · single match · only at Gabba · first Asian team · overall record: no\n[International records · Test] This was Australia's first loss in a Test matc"
+    ]
+  },
+  "which-06": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (ODI) · final · by an Indian captain · overall record: no · 2011\n[International records · ODI] The next set of batsmen, Gautam Gambhir and Vira",
+      "Scope: Champions Trophy (ODI) · final · by an Indian captain · overall record: yes · 2013\n[International records · T20I] MS Dhoni (Ind) became the first captain",
+      "Scope: ODI · all-time · overall record: yes · 2018\n[International records · ODI] In the 2018 Asia Cup title winning campaign, he scored just 77 runs in four inn"
+    ]
+  },
+  "twin-01": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: 2020-11-09\n[International records · Test] On 9 November 2020, the BCCI made several updates for the squads for the tour. Virat Kohli was granted paternit",
+      "Scope: Test · single match · only at Adelaide Oval · overall record: yes · 2020-12-19\n[International records] 2020 - 19 December – India were all out for 36 on ",
+      "Scope: 2020-12-12\n[International records · Test] On 9 December 2020, David Warner was ruled out of Australia's squad for the first Test in Adelaide, due to an i"
+    ]
+  },
+  "twin-02": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at Adelaide Oval · overall record: yes · 2020-12-19\n[International records] 2020 - 19 December – India were all out for 36 on ",
+      "Scope: Test · series · only at India · by an Indian captain · overall record: yes · 2012–13\n[International records · Test] The Australian cricket team toured In",
+      "Scope: Test · series · only at Australia · overall record: no · 2018–19\n[International records] Most runs: Marcus Harris (258)"
+    ]
+  },
+  "twin-03": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: IPL (Twenty20) · final · only at Rajiv Gandhi International Cricket Stadium, Hyderabad · overall record: no · 2017\n[IPL records · Twenty20] The final was",
+      "Scope: IPL (Twenty20) · final · 2017\n[IPL records · Twenty20] The 2017 season started on 5 April 2017 and finished on 21 May 2017, with Hyderabad hosting the op",
+      "Scope: IPL (Twenty20) · final · overall record: yes · 2017\n[IPL records · Twenty20] It was Mumbai's third IPL title, making them the first team to have won the "
+    ]
+  },
+  "twin-04": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at M. A. Chidambaram Stadium · overall record: yes · December 2016\n[International records · Test] India scored 759 runs in the",
+      "Scope: Test · single match · only at MCG · overall record: no\n[International records · Test] Nitish Kumar Reddy (Ind) scored his maiden century in Tests. He mad",
+      "Scope: Test · single match · only at Melbourne · overall record: yes · 2017–18\n[International records · Test] Cook's form slump that had continued through the 2"
+    ]
+  },
+  "twin-05": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (ODI) · tournament · only at Wellington Regional Stadium · overall record: no\n[International records · ODI] They faced the West Indies in the q",
+      "Scope: World Cup (ODI) · group stage · overall record: no · 2019\n[International records · ODI] Nathan Coulter-Nile (Aus) made the highest score by a number 8 ba",
+      "Scope: World Cup (T20) · final · overall record: no\n[International records · T20I] A partnership of 75 between Bravo and Samuels kept the West Indies in the gam"
+    ]
+  },
+  "pron-01": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at Headingley · overall record: yes · 2019\n[International records · Test] In the third test at Headingley, England appeared to",
+      "Scope: Test · single match · only at Headingley · overall record: no · 2019\n[International records · Test] On 25 August 2019, England chased down their highest ",
+      "Scope: ODI · single match · only at Headingley · overall record: no · 2019\n[International records · ODI] In ODIs, the highest team score achieved at Headingley "
+    ]
+  },
+  "pron-02": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at England · overall record: no · 2014\n[International records · Test] India won the toss and with the help of Murali Vijay's f",
+      "Scope: Test · series · only at England · overall record: no · 2014\n[International records · Test] England won the Test series 3–1 and received the Pataudi Troph",
+      "Scope: Test · single match · only at Oval · overall record: no · 2014\n[International records · Test] He hit yet another half century in the fourth Test, as Engl"
+    ]
+  },
+  "pron-03": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at Lord's · overall record: no · 2013\n[International records · Test] Though losing their first three wickets for just 28 runs ",
+      "Scope: Test · single match · only at Sydney Cricket Ground · overall record: no · 2013-14\n[International records · Test] After claiming the wicket of Jonathan T",
+      "Scope: Test · series · by an England player · overall record: no · 2010–11\n[International records · Test] On the second day, England captain Andrew Strauss was "
+    ]
+  },
+  "pron-04": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · by an Indian captain · overall record: no · 2022\n[International records · Test] In the last match of the series, which was postpone",
+      "Scope: ODI · single match · only at against England · overall record: no · 2022\n[International records · ODI] In April 2022, Bumrah was among the Wisden Five Cr",
+      "Scope: World Cup (ODI) · tournament · overall record: no · 2019\n[International records · ODI] On 6 July 2019, in the match against Sri Lanka, Bumrah, in his 57t"
+    ]
+  },
+  "pron-05": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · series · only at England · overall record: no · 2015\n[International records · Test] In the second Test at Lord's, Smith produced 215 runs in his f",
+      "Scope: Test · single match · only at Headingley · overall record: no · 2019\n[International records · Test] On 25 August 2019, England chased down their highest ",
+      "Scope: Test · single match · overall record: no · 2015\n[International records · Test] The third Test was positive for Root as he made 63 in the first innings to"
+    ]
+  },
+  "num-01": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: T20I · debut · overall record: no · 2013\n[International records · T20I] He bowled 7 overs on his One Day International debut and picked up one wicket for",
+      "Scope: Test · career · only at Border–Gavaskar Trophy series · overall record: no · 2020\n[International records · T20I] Hazlewood took his 200th Test wicket aga",
+      "Scope: Test · single match · only at Adelaide Oval · overall record: yes · 2020-12-19\n[International records] 2020 - 19 December – India were all out for 36 on "
+    ]
+  },
+  "num-02": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at Headingley · overall record: yes · 2019\n[International records · Test] In the third test at Headingley, England appeared to",
+      "Scope: Test · single match · only at Headingley · overall record: no · 2019\n[International records · Test] On 25 August 2019, England chased down their highest ",
+      "Scope: Test · single match · overall record: no · 2019\n[International records · Test] He scored a single from the third ball of the over – his only scoring stro"
+    ]
+  },
+  "num-03": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at Australia · overall record: no · 2018\n[International records · Test] During the Boxing Day Test of India Tour of Australia ",
+      "Scope: Test · series · only at Australia · overall record: no · 2018\n[International records · Test] During the Boxing Day Test of India Tour of Australia 2018, ",
+      "[International records · Test] Bumrah has grown into an asset for the Indian team in the limited-overs format. He is considered one of the fastest Indian bowler"
+    ]
+  },
+  "num-04": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup · tournament · only at New Zealand · overall record: no · 2023\n[International records · ODI] Mitchell Santner (NZ) equaled Daniel Vettori's rec",
+      "Scope: World Cup (ODI) · semi-finals · by an Indian bowler · overall record: no\n[International records · ODI] Mohammed Shami's 7/57 were the best bowling figure",
+      "Scope: World Cup · single match · overall record: no · 2023\n[International records · ODI] Shreyas Iyer and KL Rahul broke Michael Clarke and Brad Hodge's record"
+    ]
+  },
+  "num-05": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: IPL (Twenty20) · final · only at M. Chinnaswamy Stadium, Bangalore · overall record: no · 2016\n[IPL records · Twenty20] The final was played at M. Chinna",
+      "Scope: IPL (Twenty20) · final · overall record: no · 2024\n[IPL records · Twenty20] The team lost early wickets and never quite recovered. Abhishek Sharma was th",
+      "Scope: IPL (Twenty20) · season · overall record: no · 2024\n[IPL records · Twenty20] Sunrisers Hyderabad broke their own record (277) for the highest innings tot"
+    ]
+  },
+  "multi-01": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (ODI) · final · overall record: yes · 2023\n[International records · ODI] In the final against India, he scored 137 runs and was the player of t",
+      "Scope: World Test Championship · single match · overall record: no · 2025\n[International records · Test] Travis Head (Aus) surpassed Rohit Sharma to become the ",
+      "Scope: World Cup · final · overall record: no · 2023\n[International records · ODI] Head was a key member of the Australian team that won the 2023 World Test Cha"
+    ]
+  },
+  "multi-02": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · series · only at India · overall record: no · November 2021\n[International records · Test] India lost the match, with Gill scoring 28 runs off 64 ",
+      "Scope: Test · career · only at Arun Jaitley Cricket Stadium, Delhi · overall record: no\n[International records] In the second test at Arun Jaitley Cricket Stadi",
+      "Scope: Test · career · by an Indian captain · overall record: no\n[International records · Test] This marked the highest Test score by an Indian captain, the thi"
+    ]
+  },
+  "multi-03": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · series · overall record: no · 2019\n[International records · Test] Steve Smith, who made twin hundreds in the first Test and was a thorn in England",
+      "Scope: Test · single match · only at Headingley · by a Yorkshire player · overall record: no\n[International records · Test] New Zealand travelled to England in ",
+      "Scope: Test · single match · only at Headingley · overall record: no · 2019\n[International records · Test] On 25 August 2019, England chased down their highest "
+    ]
+  },
+  "multi-04": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Champions Trophy (ODI) · final · overall record: no · 2017\n[International records · ODI] The Pakistani opening pair, Azhar Ali and Fakhar Zaman, put on 1",
+      "Scope: Champions Trophy (ODI) · final · overall record: no · 2017\n[International records · ODI] Mohammad Hafeez plundered 57 not out from 37 balls, including fo",
+      "Scope: Champions Trophy · final · overall record: no · 2017\n[International records · ODI] Pakistan qualified for the final by defeating the hosts England by 8 w"
+    ]
+  },
+  "bio-01": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: T20I · series · overall record: no · 2016–2017\n[International records · T20I] In the first match of the T20I series that followed Bumrah made his debut, ",
+      "Scope: Test · series · only at Australia · overall record: no · 2018\n[International records · Test] During the Boxing Day Test of India Tour of Australia 2018, ",
+      "Scope: Test · single match · only at Australia · overall record: no · 2018\n[International records · Test] During the Boxing Day Test of India Tour of Australia "
+    ]
+  },
+  "bio-02": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: T20I · debut · overall record: no · 2016\n[International records · T20I] Lyon made his Twenty20 International debut for Australia against India on 29 Janu",
+      "Scope: Test · career · overall record: no · 2025\n[International records · Test] In January 2021, Lyon played in his 100th Test match during Australia's series a",
+      "Scope: Test · debut · overall record: no\n[International records · Test] With this feat he became the third Australian (and seventeenth international player) to "
+    ]
+  },
+  "bio-03": {
+    "route": "multi",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · overall record: not a record · 2011\n[International records · Test] There were questions as to whether Lord's would host an Ashes match – it would ",
+      "Scope: Test · single match · only at Perth Stadium · first visiting team · overall record: no\n[International records · Test] This was Australia's first loss in ",
+      "Scope: Twenty20 · single match · only at Perth Stadium · overall record: no · 11 December 2017\n[International records · Twenty20] The first event to be held at "
+    ]
+  },
+  "none-01": {
+    "route": "single",
+    "kind": "none",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at Australia · overall record: no\n[International records · Test] Of the previous four Tests Australia won three of those Tests",
+      "Scope: Test · single match · overall record: no\n[International records · Test] Australia again declared overnight, leaving them 98 overs to bowl out India. Shik",
+      "Scope: Test · series · only at Australia · overall record: no · 2014–15\n[International records · Test] The Test match ended in a draw as Australia defeated Indi"
+    ]
+  },
+  "none-02": {
+    "route": "single",
+    "kind": "none",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Ashes · series · overall record: yes · 2013–14\n[International records · Test] In doing so, Australia recorded only the third 5–0 Ashes whitewash in histo",
+      "Scope: 2017-11-17\n[International records · Test] Australia delayed naming its squad for the first two Tests until 17 November 2017, selecting Cameron Bancroft t",
+      "Scope: Test · series · only at Ashes · overall record: no\n[International records · Test] In Sydney, Head scored 170 in the first innings. He became the 16th pla"
+    ]
+  },
+  "fame-03": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: T20 World Cup · all-time · only at England · overall record: no · 2024\n[International records · T20I] Chris Jordan (Eng) took his first hat-trick in T20I",
+      "Scope: T20I · first round · for the United Arab Emirates · overall record: no · 2022\n[International records · T20I] Karthik Meiyappan became the first bowler fo",
+      "Scope: World Cup (T20) · all-time · by an Irish player · overall record: yes · 2021\n[International records · T20I] Curtis Campher became the first bowler for Ir"
+    ]
+  },
+  "recent-01": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Men's T20 World Cup · final · overall record: yes · 2024\n[International records · T20I] This was India's second T20 World Cup victory after their first w",
+      "Scope: Men's T20 World Cup · tournament · overall record: yes · 2024\n[International records · T20I] Rahmanullah Gurbaz of Afghanistan scored the most runs in th",
+      "Scope: World Cup (T20) · tournament · overall record: yes · 2024\n[International records · T20I] India also became the first team to win the T20 World Cup by win"
+    ]
+  },
+  "recent-02": {
+    "route": "single",
+    "kind": "old",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: IPL (Twenty20) · season · overall record: no · 2025\n[IPL records · Twenty20] This was Bengaluru's maiden IPL title after 18 years. Krunal Pandya became t",
+      "Scope: IPL (Twenty20) · season · overall record: no · 2025\n[IPL records · Twenty20] Most runs: Sai Sudharsan (Gujarat Titans) (759)",
+      "Scope: IPL (Twenty20) · season · overall record: no · 2025\n[IPL records · Twenty20] Most fours | ₹10 lakh (US$10,000) and trophy | Sai Sudharsan | Gujarat Titan"
+    ]
+  },
+  "chain-01": {
+    "route": "multi",
+    "kind": "chain",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Test Championship · single match · overall record: no · 2023\n[International records · Test] Just weeks before the final, ICC made a change to the \"",
+      "[International records · Test] The MCG is the host venue of the annual AFL Grand Final, the world's second-highest attended league championship event, and the a",
+      "Scope: World Test Championship · final · from South Africa · overall record: no · 2025\n[International records · Test] Aiden Markram (SA) became the third player"
+    ]
+  },
+  "chain-02": {
+    "route": "multi",
+    "kind": "chain",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (ODI) · final · only at Wankhede Stadium, Mumbai · overall record: yes · 2011\n[International records · ODI] It was played in India, Sri Lanka a",
+      "Scope: only at Wankhede Stadium\n[International records · ODI] The stadium has been host to numerous high-profile cricket matches in the past, most notably the 2",
+      "Scope: World Cup (ODI) · final · only at Wankhede Stadium · overall record: yes · 2011\n[International records · ODI] India became the first country to win the C"
+    ]
+  },
+  "chain-03": {
+    "route": "multi",
+    "kind": "chain",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: IPL (Twenty20) · final · only at Narendra Modi Stadium · overall record: no · 2022\n[IPL records · Twenty20] In 2022, the arena hosted the IPL final betwe",
+      "Scope: IPL (Twenty20) · final · 2017\n[IPL records · Twenty20] The 2017 season started on 5 April 2017 and finished on 21 May 2017, with Hyderabad hosting the op",
+      "Scope: IPL (Twenty20) · final · only at Rajiv Gandhi International Cricket Stadium, Hyderabad · overall record: no · 2017\n[IPL records · Twenty20] The final was"
+    ]
+  },
+  "chain-04": {
+    "route": "multi",
+    "kind": "chain",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · overall record: no · 2025\n[International records · Test] This was India's first ever Test win at this venue. It also became the fir",
+      "Scope: only at M. A. Chidambaram Stadium\n[International records · Test] Chepauk hosted its first Test cricket match in February 1934 during England's tour of In",
+      "Scope: only at Old Trafford\n[International records · Test] The cricket ground is near the Old Trafford football stadium (a five-minute walk away down Warwick Ro"
+    ]
+  },
+  "chain-05": {
+    "route": "multi",
+    "kind": "chain",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · series · only at Australia · overall record: no · 2025–26\n[International records · Test] It was the first Ashes series in Australia not to commenc",
+      "Scope: Test · single match · overall record: no · 2025–26\n[International records · Test] Head's century off 69 balls was the second-fastest in Ashes history.",
+      "Scope: Test · series · overall record: yes · 2025–26\n[International records · Test] Prior to the series, Australia held the Ashes, having won the 2021–22 series"
+    ]
+  },
+  "chain-06": {
+    "route": "multi",
+    "kind": "chain",
+    "correct_now": 0.5,
+    "records": [
+      "Scope: Test · March 2024\n[International records] Cricket Australia announced their summer cricket schedule in March 2024. The series was played at the main cric",
+      "Scope: Test · single match · only at Perth Stadium · first visiting team · overall record: no\n[International records · Test] This was Australia's first loss in ",
+      "Scope: Test · only at The Gabba · January 2024\n[International records · Test] Their last loss came in January 2024 against West Indies in the 2nd test of the 20"
+    ]
+  },
+  "chain-07": {
+    "route": "multi",
+    "kind": "chain",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: IPL (Twenty20) · tournament · overall record: yes · 2024\n[IPL records · Twenty20] The defending champions Chennai Super Kings were eliminated in the leag",
+      "Scope: IPL (Twenty20) · final · overall record: yes · 2024\n[IPL records · Twenty20] Kolkata Knight Riders won their third title. They became the first team to w",
+      "Scope: IPL (Twenty20) · final · overall record: no · 2024\n[IPL records · Twenty20] The team lost early wickets and never quite recovered. Abhishek Sharma was th"
+    ]
+  },
+  "chain-08": {
+    "route": "multi",
+    "kind": "chain",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at Perth Stadium · first visiting team · overall record: no\n[International records · Test] This was Australia's first loss in ",
+      "Scope: Test · March 2024\n[International records] Cricket Australia announced their summer cricket schedule in March 2024. The series was played at the main cric",
+      "Scope: only at Narendra Modi Stadium · 24 February 2020\n[International records] On 24 February 2020, the new stadium first opened to the public by hosting the N"
+    ]
+  },
+  "gap-01": {
+    "route": "single",
+    "kind": "gap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at The Gabba, Australia · overall record: no · 19 January 2021\n[International records · Test] On 19 January 2021, during the f",
+      "Scope: Test · single match · only at The Gabba, Australia · overall record: no · 19 January 2021\n[International records · Test] As he played at a strike-rate of",
+      "Scope: first-class · season · only at India · by an Indian · overall record: yes\n[International records] Following a fightback by Australia in the second inning"
+    ]
+  },
+  "gap-02": {
+    "route": "multi",
+    "kind": "gap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: County Championship · single match · only at England · overall record: no · 2022\n[International records] In April 2022, in the 2022 County Championship i",
+      "[International records] He was a part of the India A team which toured England in the 2010 summer and was the highest scorer of the tour.",
+      "Scope: T20 · single match · only at India · for Saurashtra · overall record: no\n[International records · Twenty20] In the semi-final, marked by a couple of umpi"
+    ]
+  },
+  "gap-03": {
+    "route": "single",
+    "kind": "gap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: IPL (Twenty20) · overall record: yes\n[IPL records · Twenty20] Lucknow Super Giants bought Pant for record 27 Crores in the auction making him the most ex",
+      "Scope: IPL (Twenty20)\n[IPL records · Twenty20] Rishabh Pant became the most expensive player in the history of IPL when he was bought by Lucknow Super Giants fo",
+      "Scope: all Twenty20 cricket · single match · overall record: no · 2018-01-14\n[International records · Twenty20] On 14 January 2018, in the 2017–18 Zonal T20 Lea"
+    ]
+  },
+  "gap-04": {
+    "route": "multi",
+    "kind": "gap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: career · overall record: no · 2025\n[International records · T20I] As of March 2025, Williamson has scored 33 Test and 15 ODI centuries. His highest score",
+      "Scope: Test · single match · overall record: no · 2023\n[International records] On 18 March 2023, Williamson scored his 28th century in test cricket. He went on ",
+      "Scope: ODI · overall record: no · 2019-06-22\n[International records · ODI] On 22 June, Williamson scored 148 runs off 154 balls in a 5-run victory over West Ind"
+    ]
+  },
+  "gap-05": {
+    "route": "single",
+    "kind": "gap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: The Hundred · season · overall record: no · 2025\n[International records] In The Hundred 2025, Williamson became the first male to become a direct signing",
+      "Scope: ODI · single match · only at Bulawayo · by a New Zealander · overall record: no\n[International records] Williamson scored 100* off 69 balls against Zimba",
+      "Scope: Test · single match · overall record: no · 2020\n[International records · Test] In November 2020, Williamson was nominated for the Sir Garfield Sobers Awa"
+    ]
+  },
+  "gap-06": {
+    "route": "multi",
+    "kind": "gap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: T20I · all-time · overall record: yes · October 2022\n[International records · T20I] Later, he was part of the T20I home series against Australia and Sout",
+      "Scope: World Cup (T20I) · tournament · only at Australia · overall record: no · 2022\n[International records · T20I] In October 2022, Yadav played in the 2022 IC",
+      "Scope: T20I · single match · only at Rajkot · by an Indian batter · overall record: no · January 2023\n[International records · T20I] In January 2023, Yadav scor"
+    ]
+  },
+  "trap-01": {
+    "route": "multi",
+    "kind": "trap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · career · by an Indian captain · overall record: no\n[International records · Test] This marked the highest Test score by an Indian captain, the thi",
+      "Scope: Test · series · only at England · by an Indian captain · overall record: no · 2025\n[International records · Test] Shubman Gill (Ind) scored his maiden do",
+      "Scope: Test · single match · by an Indian captain · overall record: no · 2016–17\n[International records · Test] Virat Kohli (Ind) passed 4,000 runs in Tests, 2,"
+    ]
+  },
+  "trap-02": {
+    "route": "single",
+    "kind": "trap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: ODI · single match · on debut · overall record: yes\n[International records · ODI] Krunal Pandya (Ind) scored the fastest fifty on debut in ODIs (26 balls",
+      "Scope: ODI · overall record: no · 2012\n[International records · T20I] He rose to prominence in 2011 after setting an at-the-time record for the fastest half-cen",
+      "Scope: World Cup (ODI) · by a New Zealander · overall record: no\n[International records · ODI] Brendon McCullum (NZ) scored the fastest fifty in World Cup histo"
+    ]
+  },
+  "trap-03": {
+    "route": "single",
+    "kind": "trap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at India · by an Australian captain · overall record: no · 2016–17\n[International records · Test] Steve Smith's score of 178 n",
+      "Scope: Test · single match · by an Australian captain · overall record: no · 2017\n[International records · Test] This is the third-highest score by an Australia",
+      "Scope: Test · series · only at India · by an Indian captain · overall record: yes · 2012–13\n[International records · Test] The Australian cricket team toured In"
+    ]
+  },
+  "trap-04": {
+    "route": "multi",
+    "kind": "trap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (ODI) · knockout · overall record: yes · 2015\n[International records · ODI] Australia's total of 328/7 is the highest score in a World Cup semi",
+      "Scope: World Cup (ODI) · knockout stage · by the host team · overall record: no\n[International records · ODI] India overtook New Zealand's 393 in 2015 for the h",
+      "Scope: World Cup (ODI) · knockout · overall record: no\n[International records · ODI] This was the highest successful run-chase in a World Cup knockout match."
+    ]
+  },
+  "trap-05": {
+    "route": "multi",
+    "kind": "trap",
+    "correct_now": 0.0,
+    "records": [
+      "Scope: Test · India v England · by an Indian batter · overall record: yes · December 2016\n[International records · Test] Karun Nair's 303 not out against Englan",
+      "Scope: Test · career · by an Indian captain · overall record: no\n[International records · Test] This marked the highest Test score by an Indian captain, the thi",
+      "Scope: Test · series · only at England · by an Indian captain · overall record: no · 2025\n[International records · Test] Shubman Gill (Ind) scored his maiden do"
+    ],
+    "target_found": true
+  },
+  "trap-06": {
+    "route": "single",
+    "kind": "trap",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · by a wicketkeeper on debut · overall record: no · 2021–22\n[International records · Test] Alex Carey (Aus) took the most catches, (8",
+      "Scope: Test · single match · only at Australia · by a wicketkeeper for India · overall record: no · 2018-12\n[International records · Test] In December 2018, dur",
+      "Scope: Test · single match · only at Ashes · on debut · overall record: no · 2015\n[International records · Test] Peter Nevill (Aus) made his Test debut, and too"
+    ]
+  },
+  "pair-01": {
+    "route": "multi",
+    "kind": "pair",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (T20) · final · overall record: no · 2022\n[International records · T20I] Ben Stokes scored his maiden T20I fifty and then hit the winning run w",
+      "Scope: World Cup (ODI) · 2019\n[International records · T20I] Medal record Men's Cricket Representing England ICC Cricket World Cup Winner 2019 England and Wales",
+      "Scope: Test · series · overall record: no · 2020\n[International records · Test] Prior to being named captain, Stokes had never led a team in a first-class, List"
+    ]
+  },
+  "pair-02": {
+    "route": "multi",
+    "kind": "pair",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: IPL (Twenty20) · season · by a spin bowler · overall record: yes · 2019\n[IPL records · Twenty20] Chennai's Imran Tahir was given the Purple Cap for getti",
+      "Scope: IPL (Twenty20) · season · by an uncapped Indian player · overall record: no · 2013\n[IPL records · Twenty20] While the inclusion of Dirk Nannes and Chris ",
+      "Scope: IPL (Twenty20) · season · overall record: yes · 2012\n[IPL records · Twenty20] Most wickets: Morne Morkel (DD) (25)"
+    ]
+  },
+  "pair-03": {
+    "route": "multi",
+    "kind": "pair",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: IPL (Twenty20) · final · only at Chennai · overall record: yes · 2011\n[IPL records · Twenty20] The tournament was won by the Chennai Super Kings for the ",
+      "Scope: IPL (Twenty20) · final · overall record: no · 2021\n[IPL records · Twenty20] In the final, Chennai Super Kings beat Kolkata Knight Riders to win their fou",
+      "Scope: IPL (Twenty20) · season · overall record: yes · 2010\n[IPL records · Twenty20] Most runs: Sachin Tendulkar (MI) (618)"
+    ]
+  },
+  "pair-04": {
+    "route": "multi",
+    "kind": "pair",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Test · single match · only at Trent Bridge · overall record: no · 2015\n[International records · Test] Broad's best ever bowling performance was on the fi",
+      "Scope: Test · series · overall record: no · 2018\n[International records · Test] During the second Test against New Zealand in 2018, Anderson – along with partne",
+      "Scope: Test · series · only at Trent Bridge · overall record: no · 2002–03\n[International records · Test] The Test series against South Africa dented Anderson's"
+    ]
+  },
+  "pair-05": {
+    "route": "multi",
+    "kind": "pair",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: IPL (Twenty20) · season · overall record: no · 2022\n[IPL records · Twenty20] Cummins played in 37 IPL matches from 2014 to 2021, taking 38 wickets. In IP",
+      "Scope: IPL (Twenty20) · single match · overall record: no · 2022\n[IPL records · Twenty20] Pat Cummins (Kolkata Knight Riders) scored the joint-fastest half-cent",
+      "Scope: ODI · single match · overall record: no\n[International records] Pat Cummins took 15 wickets in 11 matches with economy of 5.75 and scored 128 runs in 8 i"
+    ]
+  },
+  "pair-06": {
+    "route": "multi",
+    "kind": "pair",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (T20I) · single match · by an English player · overall record: yes · 2021-11-01\n[International records · T20I] In September 2021, Buttler was n",
+      "Scope: World Cup (T20) · Knockout stage · overall record: yes · 2022\n[International records · T20I] The 170-run partnership between England's Jos Buttler and Al",
+      "Scope: T20 World Cup · semi-final · overall record: no · 2022\n[International records · T20I] In the match against New Zealand, Buttler scored 73 off 47 balls, w"
+    ]
+  },
+  "alike-01": {
+    "route": "multi",
+    "kind": "alike",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Champions Trophy (ODI) · single match · by an Afghan batter · overall record: yes · 2025\n[International records · ODI] Zadran also made the highest indiv",
+      "Scope: Champions Trophy (ODI) · single match · overall record: yes · 2025\n[International records · ODI] Duckett also made the highest individual score by a play",
+      "Scope: Champions Trophy (ODI) · single match · overall record: yes · 2025\n[International records · ODI] This was the highest match aggregate in history of ICC C"
+    ]
+  },
+  "alike-02": {
+    "route": "single",
+    "kind": "alike",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (ODI) · knockout stage · by a South African cricketer · overall record: yes · 2025\n[International records · ODI] David Miller (SA) scored the f",
+      "Scope: ODI · group stage · overall record: no · 2025\n[International records · ODI] Virat Kohli (Ind) scored an unbeaten 100, marking his 51st century in One Day",
+      "Scope: Champions Trophy (ODI) · single match · overall record: yes · 2025\n[International records · ODI] Inglis' century was the fastest-ever in the Champions Tr"
+    ]
+  },
+  "alike-03": {
+    "route": "multi",
+    "kind": "alike",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (ODI) · by a New Zealander · overall record: no\n[International records · ODI] Brendon McCullum (NZ) scored the fastest fifty in World Cup histo",
+      "Scope: World Cup (ODI) · tournament · overall record: no · 2023\n[International records · ODI] At the 2023 Cricket World Cup, he achieved a century in 40 balls a",
+      "Scope: World Cup (ODI) · overall record: no\n[International records · ODI] New Zealand's chase got off to a brisk start, mainly due to their captain Brendon McCu"
+    ]
+  },
+  "alike-04": {
+    "route": "single",
+    "kind": "alike",
+    "correct_now": 0.0,
+    "records": [
+      "Scope: IPL · all-time · only at Eden Gardens · overall record: yes\n[IPL records · Twenty20] Sunil Narine's 5/19 is the best bowling figures in the IPL at Eden G",
+      "Scope: IPL (Twenty20) · single match · overall record: yes · 2019\n[IPL records · Twenty20] Alzarri Joseph (Mumbai Indians) took the best bowling figures in the ",
+      "Scope: IPL (Twenty20) · single match · by Sunrisers Hyderabad · overall record: no · 2019\n[IPL records · Twenty20] Mohammad Nabi recorded the second-best bowlin"
+    ],
+    "target_found": true
+  },
+  "alike-05": {
+    "route": "single",
+    "kind": "alike",
+    "correct_now": 0.0,
+    "records": [
+      "Scope: IPL · single match · only at Eden Gardens · overall record: no · 2022\n[IPL records · Twenty20] Rajat Patidar hit the highest ever individual score in an ",
+      "Scope: IPL (Twenty20) · playoffs · overall record: no · 2023\n[IPL records · Twenty20] Shubman Gill (Gujarat Titans) made the highest individual score of 129 run",
+      "Scope: IPL (Twenty20) · single match · by a Hyderabad batsman · overall record: no · 2015\n[IPL records · Twenty20] David Warner made the highest score by a Hyde"
+    ],
+    "target_found": false
+  },
+  "alike-06": {
+    "route": "multi",
+    "kind": "alike",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (T20) · tournament · overall record: yes · 2026\n[International records · T20I] Finn Allen's 100* off 33 balls in the semi-finals of the 2026 IC",
+      "Scope: T20 World Cup · only at Narendra Modi Stadium · by a captain · overall record: no · 2026\n[International records · T20I] Aiden Markram scored the fastest ",
+      "Scope: T20 World Cup · tournament · overall record: no · 2021\n[International records · T20I] Shoaib Malik (Pak) scored the joint-fastest fifty of the tournament"
+    ]
+  },
+  "none-11": {
+    "route": "single",
+    "kind": "none",
+    "correct_now": 0.0,
+    "records": [
+      "Scope: World Test Championship · final · only at Lords · by an overseas batter · overall record: no · 2025\n[International records · Test] In June 2025, on the f",
+      "Scope: World Test Championship · final · only at Lord's · by a visiting batter · overall record: no · 2025\n[International records · Test] Steve Smith (Aus) surp",
+      "Scope: Test · series · only at Sri Lanka · overall record: no · 2022\n[International records] Smith finished the test series with 151 runs from 3 innings, an ave"
+    ]
+  },
+  "none-12": {
+    "route": "single",
+    "kind": "none",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: Champions Trophy · final · by an Indian captain · overall record: no · 2025\n[International records · ODI] This was India's third ICC Champions Trophy tit",
+      "Scope: Champions Trophy · final · overall record: no · 2025\n[International records · ODI] New Zealand won the toss and electing to bat first, they registered a ",
+      "Scope: ICC ODI tournament · final · overall record: yes · 2017\n[International records · T20I] Pakistan won by 180 runs, which was the largest margin of victory "
+    ]
+  },
+  "none-13": {
+    "route": "single",
+    "kind": "none",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Test Championship · single match · overall record: no · 2021\n[International records · Test] The first day of play was scheduled to take place on Fr",
+      "Scope: World Cup (ODI) · all-time · overall record: yes\n[International records · ODI] A total of 1,250,307 spectators attended the matches, the highest number i",
+      "[International records · Test] The record numbers of spectators who attended Test and County Championship matches began to decline by the end of the 1950s and c"
+    ]
+  },
+  "none-14": {
+    "route": "single",
+    "kind": "none",
+    "correct_now": 1.0,
+    "records": [
+      "Scope: World Cup (ODI) · final · men's team · overall record: yes · 2022\n[International records · T20I] England won the match by 5 wickets to win the title for ",
+      "Scope: Champions Trophy (ODI) · final · by an Indian captain · overall record: yes · 2013\n[International records · T20I] MS Dhoni (Ind) became the first captain",
+      "[International records · T20I] Medal record Men's cricket Representing England ICC Cricket World Cup Winner 2019 England and Wales ICC T20 World Cup Winner 2022"
+    ]
+  }
+}

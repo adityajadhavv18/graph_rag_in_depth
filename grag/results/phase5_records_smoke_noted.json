@@ -1,0 +1,168 @@
+{
+  "alike-04": {
+    "before": 0.0,
+    "now": 1.0,
+    "route": "single",
+    "answer": "Alzarri Joseph of Mumbai Indians holds the record for the best bowling figures in IPL history, with figures of 6 wickets for 12 runs [1].",
+    "records": [
+      "Scope: IPL · all-time · only at Eden Gardens · overall record: yes\n[IPL records · Twenty20] Sunil Narine's 5/19 is the best bowling figures ",
+      "Scope: IPL (Twenty20) · single match · overall record: yes · 2019\n[IPL records · Twenty20] Alzarri Joseph (Mumbai Indians) took the best bow",
+      "Scope: IPL (Twenty20) · single match · by Sunrisers Hyderabad · overall record: no · 2019\n[IPL records · Twenty20] Mohammad Nabi recorded th"
+    ],
+    "crag": {
+      "action": "AMBIGUOUS",
+      "scores": [
+        5,
+        0,
+        5,
+        0,
+        0
+      ],
+      "pool": 5,
+      "fallback": {
+        "scores": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "kept": []
+      },
+      "kept": [
+        "2019_indian_premier_league::rec::00935",
+        "2017_indian_premier_league::s014::00",
+        "eden_gardens::rec::01934",
+        "2019_indian_premier_league::rec::00933",
+        "2018_indian_premier_league::s016::00"
+      ]
+    },
+    "cost": 0.0029215499999999998
+  },
+  "alike-05": {
+    "before": 0.0,
+    "now": 0.0,
+    "route": "single",
+    "answer": "The highest individual score in an IPL match is 129 runs, made by Shubman Gill of the Gujarat Titans during the IPL Playoffs on 26 May 2023 [2].",
+    "records": [
+      "Scope: IPL · single match · only at Eden Gardens · overall record: no · 2022\n[IPL records · Twenty20] Rajat Patidar hit the highest ever ind",
+      "Scope: IPL (Twenty20) · playoffs · overall record: no · 2023\n[IPL records · Twenty20] Shubman Gill (Gujarat Titans) made the highest individ",
+      "Scope: IPL (Twenty20) · single match · by a Hyderabad batsman · overall record: no · 2015\n[IPL records · Twenty20] David Warner made the hig"
+    ],
+    "crag": {
+      "action": "CORRECT",
+      "scores": [
+        5,
+        10,
+        5,
+        5,
+        5
+      ],
+      "pool": 5,
+      "kept": [
+        "2023_indian_premier_league::rec::00985",
+        "2023_indian_premier_league::s013::00",
+        "eden_gardens::rec::01933",
+        "2015_indian_premier_league::rec::00894",
+        "eden_gardens::s025::01"
+      ]
+    },
+    "cost": 0.0026477999999999996
+  },
+  "trap-05": {
+    "before": 0.0,
+    "now": 1.0,
+    "route": "multi",
+    "answer": "The highest individual Test score by an Indian batter against England is 303 not out, made by Karun Nair in December 2016 [1].",
+    "records": [
+      "Scope: Test · India v England · by an Indian batter · overall record: yes · December 2016\n[International records · Test] Karun Nair's 303 no",
+      "Scope: Test · career · by an Indian captain · overall record: no\n[International records · Test] This marked the highest Test score by an Ind",
+      "Scope: Test · series · only at England · by an Indian captain · overall record: no · 2025\n[International records · Test] Shubman Gill (Ind) "
+    ],
+    "crag": {
+      "action": "CORRECT",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        0,
+        0,
+        0
+      ],
+      "pool": 7,
+      "kept": [
+        "custom::rec::00001",
+        "english_cricket_team_in_india_in_2016-17::s006::00",
+        "english_cricket_team_in_india_in_2016-17::s005::00",
+        "indian_cricket_team_in_england_in_2025::s007::00",
+        "shubman_gill::s003::08",
+        "shubman_gill::s009::00",
+        "shubman_gill::s000::03"
+      ]
+    },
+    "cost": 0.0039708
+  },
+  "twin-04": {
+    "before": 1.0,
+    "now": 1.0,
+    "route": "multi",
+    "answer": "Ajinkya Rahane scored a century for India in the Boxing Day Test at the MCG in December 2020, finishing his innings with a score of 112 runs off 223 balls [1].",
+    "records": [
+      "Scope: Test · single match · only at M. A. Chidambaram Stadium · overall record: yes · December 2016\n[International records · Test] India sc",
+      "Scope: Test · single match · only at MCG · overall record: no\n[International records · Test] Nitish Kumar Reddy (Ind) scored his maiden cent",
+      "Scope: Test · single match · only at Melbourne · overall record: yes · 2017–18\n[International records · Test] Cook's form slump that had con"
+    ],
+    "crag": {
+      "action": "CORRECT",
+      "scores": [
+        10,
+        5,
+        0,
+        10,
+        0,
+        0
+      ],
+      "pool": 6,
+      "kept": [
+        "indian_cricket_team_in_australia_in_2020-21::s014::00",
+        "indian_cricket_team_in_australia_in_2020-21::s014::01",
+        "indian_cricket_team_in_australia_in_2020-21::s018::00",
+        "ajinkya_rahane::s007::01",
+        "ajinkya_rahane::s004::01",
+        "ajinkya_rahane::s007::00"
+      ]
+    },
+    "cost": 0.00340665
+  },
+  "alike-02": {
+    "before": 1.0,
+    "now": 1.0,
+    "route": "single",
+    "answer": "David Miller (SA) scored the fastest century in ICC Champions Trophy history during the match on 5 March 2025 against New Zealand, where he made 100* off 67 balls [2].",
+    "records": [
+      "Scope: World Cup (ODI) · knockout stage · by a South African cricketer · overall record: yes · 2025\n[International records · ODI] David Mill",
+      "Scope: ODI · group stage · overall record: no · 2025\n[International records · ODI] Virat Kohli (Ind) scored an unbeaten 100, marking his 51s",
+      "Scope: Champions Trophy (ODI) · single match · overall record: yes · 2025\n[International records · ODI] Inglis' century was the fastest-ever"
+    ],
+    "crag": {
+      "action": "CORRECT",
+      "scores": [
+        10,
+        10,
+        10,
+        10,
+        5
+      ],
+      "pool": 5,
+      "kept": [
+        "2025_champions_trophy::rec::00669",
+        "2025_champions_trophy::s031::00",
+        "2025_champions_trophy::rec::00653",
+        "2025_champions_trophy::s023::01",
+        "2025_champions_trophy::rec::00643"
+      ]
+    },
+    "cost": 0.00261075
+  }
+}
